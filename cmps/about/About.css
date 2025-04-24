@@ -7,6 +7,7 @@
         text-align: center;
         gap: 1em;
 
+        margin: auto;
         margin-block-start: 11em;
         padding-block-end: 2em;
     }

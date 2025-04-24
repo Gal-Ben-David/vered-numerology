@@ -10,9 +10,9 @@ export function About() {
 
             <div className="content about-content">
                 <div>
-                    <h1>ורד בן דוד</h1>
-                    <h2>נומרולוגיה, ייעוץ והכוונה</h2>
-                    <h2>פגישות אישיות ・ סדנאות קבוצתיות</h2>
+                    <h1 className="rtl">ורד בן דוד</h1>
+                    <h2 className="rtl">נומרולוגיה, ייעוץ והכוונה</h2>
+                    <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
 
                 <div>

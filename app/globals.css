@@ -47,6 +47,7 @@ h2 {
   .about & {
     font-size: 1.1rem;
     margin-block-end: .2em;
+    padding: 0 1em;
   }
 }
 
