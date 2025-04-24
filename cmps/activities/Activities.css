@@ -1,0 +1,7 @@
+.activities {
+    background: var(--light-background);
+    color: var(--background);
+
+    padding-block-start: 1.3em;
+    text-align: center;
+}

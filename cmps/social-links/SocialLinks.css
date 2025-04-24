@@ -16,7 +16,7 @@
         height: 100px;
 
         border-radius: 50%;
-        filter: brightness(0) saturate(100%) invert(81%) sepia(4%) saturate(889%) hue-rotate(300deg) brightness(105%) contrast(104%);
+        filter: brightness(0) saturate(100%) invert(99%) sepia(43%) saturate(3492%) hue-rotate(288deg) brightness(118%) contrast(108%);
         transition: .5s ease-in-out;
 
         &:hover {

@@ -7,14 +7,15 @@
         text-align: center;
         gap: 1em;
 
-        margin-block-start: 10em;
+        margin-block-start: 11em;
+        padding-block-end: 2em;
     }
 }
 
 .profile-img {
     position: absolute;
     right: 50%;
-    top: -10%;
+    top: -9%;
     transform: translateX(50%);
 
     width: 200px;
