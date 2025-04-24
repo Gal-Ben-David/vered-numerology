@@ -1,0 +1,19 @@
+.social-link-list {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    gap: 3em;
+
+    & li {
+        display: flex;
+        text-align: center;
+
+
+    }
+
+    & .icon {
+        width: 100px;
+        height: 100px;
+
+        border-radius: 50%;
+    }
+}
