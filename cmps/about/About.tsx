@@ -15,10 +15,7 @@ export function About() {
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
 
-                <div>
-                    <SocialLinks />
-                </div>
-
+                <SocialLinks />
             </div>
 
         </section>

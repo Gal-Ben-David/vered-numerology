@@ -16,11 +16,6 @@
         border-radius: 50%;
         filter: brightness(0) saturate(100%) invert(78%) sepia(61%) saturate(1845%) hue-rotate(299deg) brightness(114%) contrast(112%);
         transition: .5s ease-in-out;
-
-        &:hover {
-            filter: brightness(0) saturate(100%) invert(65%) sepia(35%) saturate(708%) hue-rotate(304deg) brightness(100%) contrast(93%);
-            scale: 1.02;
-        }
     }
 
 
