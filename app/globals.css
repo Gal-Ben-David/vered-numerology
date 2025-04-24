@@ -72,6 +72,7 @@ p {
 
   .activities & {
     line-height: 1.6;
+    font-size: 1.3rem;
   }
 }
 
@@ -104,8 +105,18 @@ p {
   height: 500px;
 }
 
+.rtl {
+  direction: rtl;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover-img {
+    height: 300px;
   }
 }

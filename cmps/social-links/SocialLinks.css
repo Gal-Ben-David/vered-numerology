@@ -3,6 +3,7 @@
     grid-template-columns: repeat(2, 100px);
     gap: 3em;
     justify-self: center;
+    justify-items: center;
 
     & li {
         display: flex;
@@ -12,9 +13,6 @@
     }
 
     & .icon {
-        width: 100px;
-        height: 100px;
-
         border-radius: 50%;
         filter: brightness(0) saturate(100%) invert(99%) sepia(43%) saturate(3492%) hue-rotate(288deg) brightness(118%) contrast(108%);
         transition: .5s ease-in-out;
