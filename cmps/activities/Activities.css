@@ -11,10 +11,12 @@
     & .activities-list {
         display: grid;
         justify-content: center;
+        position: relative;
 
         & li {
             display: grid;
             gap: .8em;
+            width: 100%;
 
             & img {
                 /* border-radius: .6em; */

@@ -15,7 +15,7 @@
 .profile-img {
     position: absolute;
     right: 50%;
-    transform: translate(50%, -50%);
+    transform: translate(50%, -70%);
 
     width: 200px;
     height: 200px;
@@ -24,7 +24,7 @@
     overflow: hidden;
 
     box-shadow: 0 5px 13px #000;
-    transition: 1s ease-in-out;
+    transition: 1.8s ease-in-out;
     opacity: 0;
 }
 
