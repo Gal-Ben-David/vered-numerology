@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { About } from "@/cmps/about/About";
 import { Footer } from "@/cmps/footer/Footer";
 import { Activities } from "@/cmps/activities/Activities";
+import { CallToAction } from "@/cmps/call-to-action/CallToAction";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <div className="cover-img full"></div>
       <About />
       <Activities />
+      <CallToAction />
       <Footer />
     </main>
   )

@@ -1,6 +1,7 @@
 footer {
     display: flex;
     justify-content: center;
+    background: #666;
 
     padding: 1em;
     text-align: center;

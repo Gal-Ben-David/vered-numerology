@@ -17,7 +17,7 @@
             gap: .8em;
 
             & img {
-                border-radius: .6em;
+                /* border-radius: .6em; */
                 box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555);
                 cursor: pointer;
             }

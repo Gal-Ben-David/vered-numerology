@@ -27,6 +27,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-family: 'Varela Round', sans-serif;
+  text-align: center;
 }
 
 h1,
@@ -74,6 +75,11 @@ p {
     line-height: 1.6;
     font-size: 1.3rem;
   }
+
+  .call-to-action & {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
 }
 
 .app-container {
@@ -107,6 +113,10 @@ p {
 
 .rtl {
   direction: rtl;
+}
+
+.large {
+  font-size: 1.3rem;
 }
 
 @media (prefers-color-scheme: dark) {
