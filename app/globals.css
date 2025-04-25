@@ -47,7 +47,6 @@ h2 {
   .about & {
     font-size: 1.1rem;
     margin-block-end: .2em;
-    padding: 0 1em;
   }
 }
 
@@ -85,7 +84,7 @@ p {
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(20px, 280px) minmax(auto, 1800px) minmax(20px, 280px);
+  grid-template-columns: minmax(10px, 280px) minmax(auto, 1800px) minmax(10px, 280px);
 }
 
 .main-layout>* {
@@ -118,6 +117,6 @@ p {
 
 @media (max-width: 767px) {
   .cover-img {
-    height: 300px;
+    height: 250px;
   }
 }

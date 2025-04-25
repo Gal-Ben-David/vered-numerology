@@ -1,7 +1,42 @@
 .activities {
+    display: grid;
+    padding: 1.3em 0;
+    gap: 2em;
+
     background: var(--light-background);
     color: var(--background);
 
-    padding-block-start: 1.3em;
     text-align: center;
+
+    & .activities-list {
+        display: grid;
+        justify-content: center;
+
+        & li {
+            display: grid;
+            gap: .8em;
+
+            & img {
+                border-radius: .6em;
+                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .activities-list {
+        grid-auto-rows: 300px;
+        grid-template-columns: 260px;
+        gap: 2em;
+    }
+}
+
+@media (min-width: 768px) {
+    .activities-list {
+        grid-auto-rows: 300px;
+        grid-template-columns: repeat(2, 260px);
+        gap: 4em;
+    }
 }
