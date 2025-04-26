@@ -14,24 +14,66 @@
         position: relative;
 
         & li {
+            position: relative;
             display: grid;
-            gap: .8em;
             width: 100%;
-
-            & img {
-                /* border-radius: .6em; */
-                box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555);
-                cursor: pointer;
-            }
         }
     }
+}
+
+.img-wrapper {
+    position: relative;
+    width: 260px;
+    height: 260px;
+
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555);
+    transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.02) rotateZ(0.5deg);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    &:hover img {
+        filter: brightness(1.2);
+    }
+}
+
+.workshop-img {
+    object-fit: cover;
+    filter: brightness(1.1);
+    /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555); */
+    cursor: pointer;
+}
+
+.img-wrapper::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.4) 0%,
+            /* dark at top */
+            rgba(0, 0, 0, 0) 0%,
+            /* fade out */
+            rgba(0, 0, 0, 0) 40%,
+            /* stay transparent */
+            rgba(0, 0, 0, 0.578) 80%
+            /* dark at bottom */
+        );
+    pointer-events: none;
+    /* Let clicks pass through */
+    /* border-radius: 0.6em; */
+    /* If your images have rounded corners */
 }
 
 @media (max-width: 767px) {
     .activities-list {
         grid-auto-rows: 300px;
         grid-template-columns: 260px;
-        gap: 2em;
     }
 }
 

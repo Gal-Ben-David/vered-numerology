@@ -5,41 +5,24 @@ import Image from "next/image";
 const workshopList = [
     {
         title: 'בעקבות המספרים',
-        img: <Image
-            src="https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/numbers_1_zvy7ye.jpg"
-            alt="workshop"
-            height={260}
-            width={300}
-        />
-    },
-    {
-        title: 'חכמת נשים',
-        img: <Image
-            src="https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/women-bible_qxhlkx.jpg"
-            alt="workshop"
-            height={260}
-            width={300}
-        />
-    },
-    {
-        title: 'בניית חזון אישי',
-        img: <Image
-            src="https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/vision_1_tct4wp.jpg"
-            alt="workshop"
-            height={260}
-            width={300}
-        />
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/numbers_1_zvy7ye.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/numbers_1_zvy7ye.jp'
     },
     {
         title: 'הקול בראש',
-        img: <Image
-            src="https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/inner_voice_1_dgk3fq.jpg"
-            alt="workshop"
-            height={260}
-            width={300}
-        />
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/inner_voice_1_dgk3fq.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/inner_voice_1_dgk3fq.jpg'
     },
-
+    {
+        title: 'חכמת נשים',
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/women-bible_qxhlkx.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/women-bible_qxhlkx.jpg'
+    },
+    {
+        title: 'בניית חזון אישי',
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/vision_1_tct4wp.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/vision_1_tct4wp.jpg'
+    },
 ]
 
 export function Activities() {
@@ -55,15 +38,24 @@ export function Activities() {
                 <ul className="activities-list">
                     {
                         workshopList.map((item, i) =>
-                            <li key={i}>
-                                <h2>{item.title}</h2>
-                                {item.img}
-                            </li>
-                        )
+                            <li className="activity" key={i}>
+                                <h2 className="workshop-title">{item.title}</h2>
+                                <div className="img-wrapper">
+                                    <Image
+                                        className="workshop-img"
+                                        src={item.src}
+                                        alt="workshop"
+                                        fill
+                                        sizes="(max-width: 768px) 260px, 300px"
+                                        loading="lazy"
+                                    // placeholder="blur"
+                                    // blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
+                                    />
+                                </div>
+                            </li>)
                     }
                 </ul>
             </div>
-
         </section>
     )
 }

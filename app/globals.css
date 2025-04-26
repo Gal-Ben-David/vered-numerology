@@ -49,6 +49,19 @@ h2 {
     font-size: 1.1rem;
     margin-block-end: .2em;
   }
+
+  .activity & {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80%;
+    color: var(--foreground);
+    font-size: 1.2rem;
+
+    z-index: 1;
+  }
 }
 
 ul {
