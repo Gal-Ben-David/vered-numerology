@@ -36,25 +36,26 @@ export function Activities() {
             <div>
                 <h2>רשימת סדנאות</h2>
                 <ul className="activities-list">
-                    {
-                        workshopList.map((item, i) =>
-                            <li className="activity" key={i}>
-                                <h2 className="workshop-title">{item.title}</h2>
-                                <div className="img-wrapper">
-                                    <Image
-                                        className="workshop-img"
-                                        src={item.src}
-                                        alt="workshop"
-                                        fill
-                                        sizes="(max-width: 768px) 260px, 300px"
-                                        loading="lazy"
-                                    // placeholder="blur"
-                                    // blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD..."
-                                    />
-                                </div>
-                            </li>)
-                    }
+                    {workshopList.map((item, i) =>
+                        <li className="activity" key={i}>
+                            <h3 className="workshop-title">{item.title}</h3>
+                            <div className="img-wrapper">
+                                <Image
+                                    className="workshop-img"
+                                    src={item.src}
+                                    alt="workshop"
+                                    fill
+                                    sizes="(max-width: 768px) 260px, 300px"
+                                    loading="lazy"
+                                />
+                            </div>
+                        </li>)}
                 </ul>
+            </div>
+
+            <div className="workshop-description">
+                <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
+                <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>
         </section>
     )

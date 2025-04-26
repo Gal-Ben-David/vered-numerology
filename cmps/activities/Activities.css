@@ -1,6 +1,6 @@
 .activities {
     display: grid;
-    padding: 1.3em 0;
+    padding: 1.3em 0 3em 0;
     gap: 2em;
 
     background: var(--light-background);
@@ -11,6 +11,7 @@
     & .activities-list {
         display: grid;
         justify-content: center;
+        align-items: center;
         position: relative;
 
         & li {
@@ -27,15 +28,10 @@
     height: 260px;
 
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555);
-    transition: transform 0.3s ease;
 
     &:hover {
         transform: scale(1.02) rotateZ(0.5deg);
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-    }
-
-    &:hover img {
-        filter: brightness(1.2);
     }
 }
 

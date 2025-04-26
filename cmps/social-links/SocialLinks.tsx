@@ -11,6 +11,7 @@ export function SocialLinks() {
                         href={link.href}
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="icon-container"
                     >
                         <div className="icon">{link.icon}</div>
                         <div>{link.title}</div>

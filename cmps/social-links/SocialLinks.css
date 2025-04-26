@@ -6,8 +6,11 @@
     justify-items: center;
 
     & li {
-        display: flex;
         text-align: center;
+
+        & .icon-container {
+            display: grid;
+        }
     }
 
     & .icon {
