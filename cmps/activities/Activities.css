@@ -23,16 +23,10 @@
 
     & .btn-schedule-workshop {
         justify-self: center;
-        color: var(--foreground);
+        color: var(--light-background);
         font-weight: 600;
-    }
-
-    & .btn-schedule-workshop::after {
         background: #F8899D;
-
     }
-
-    & .btn-schedule-workshop::before {}
 }
 
 .img-wrapper {

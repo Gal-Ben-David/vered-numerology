@@ -22,7 +22,7 @@
         padding-block-start: 2em;
         /* height: 80%; */
 
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
 }
 
@@ -37,5 +37,4 @@
 
 .bold {
     font-weight: 600;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
 }
