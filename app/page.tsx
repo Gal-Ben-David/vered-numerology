@@ -4,6 +4,7 @@ import { About } from "@/cmps/about/About";
 import { Footer } from "@/cmps/footer/Footer";
 import { Activities } from "@/cmps/activities/Activities";
 import { CallToAction } from "@/cmps/call-to-action/CallToAction";
+import { Meetings } from "@/cmps/meetings/Meetings";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div className="cover-img full"></div>
       <About />
       <Activities />
+      <Meetings />
       <CallToAction />
       <Footer />
     </main>

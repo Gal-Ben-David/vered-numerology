@@ -53,6 +53,11 @@ h2 {
   .workshop-description & {
     margin-block-end: .5em;
   }
+
+  .meetings & {
+    align-self: center;
+    margin-block-start: 2em;
+  }
 }
 
 h3 {
@@ -94,6 +99,13 @@ p {
     line-height: 1.6;
     font-size: 1.3rem;
     margin: auto;
+  }
+
+  .meeting-description & {
+    width: 18em;
+    line-height: 1.5;
+    font-size: 1rem;
+
   }
 
   .call-to-action & {

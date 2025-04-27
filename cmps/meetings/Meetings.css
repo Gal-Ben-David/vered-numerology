@@ -1,0 +1,37 @@
+.cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    height: 600px;
+}
+
+.meetings {
+    position: relative;
+    grid-auto-rows: 80px 1fr;
+    background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1745739241/candle-book-cover_s2jbvl.jpg');
+    z-index: 0;
+
+    & .meeting-description {
+        display: grid;
+        align-items: center;
+        gap: 1em;
+        margin-block-start: 2em;
+        height: 80%;
+
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+    }
+}
+
+.meetings::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.bold {
+    font-weight: 600;
+}
