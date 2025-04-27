@@ -13,7 +13,7 @@ const WhatsappIcon = () => (
 const MobileIcon = () => (
     <Image
         src="/icons/telephone-icon.svg"
-        alt="whatsapp"
+        alt="phone"
         width={50}
         height={50}
         className="icon"
@@ -23,7 +23,7 @@ const MobileIcon = () => (
 const InstagramIcon = () => (
     <Image
         src="/icons/instagram-icon.svg"
-        alt="whatsapp"
+        alt="instagram"
         width={50}
         height={50}
         className="icon"
@@ -33,7 +33,37 @@ const InstagramIcon = () => (
 const FacebookIcon = () => (
     <Image
         src="/icons/facebook-icon.svg"
+        alt="facebook"
+        width={50}
+        height={50}
+        className="icon"
+    />
+)
+
+const WhatsappIconColorful = () => (
+    <Image
+        src="/icons/whatsapp-icon-color.svg"
         alt="whatsapp"
+        width={50}
+        height={50}
+        className="icon"
+    />
+)
+
+const FacebookIconColorful = () => (
+    <Image
+        src="/icons/facebook-icon-color.svg"
+        alt="facebook"
+        width={50}
+        height={50}
+        className="icon"
+    />
+)
+
+const InstagramIconColorful = () => (
+    <Image
+        src="/icons/instagram-icon-color.svg"
+        alt="instagram"
         width={50}
         height={50}
         className="icon"
@@ -59,6 +89,25 @@ export const socialLinks = [
     {
         title: 'Facebook',
         icon: <FacebookIcon />,
+        href: ''
+    },
+]
+
+export const socialLinksColorful = [
+    {
+        title: 'Whatsapp',
+        icon: < WhatsappIconColorful />,
+        href: ''
+    },
+
+    {
+        title: 'Instagram',
+        icon: < InstagramIconColorful />,
+        href: ''
+    },
+    {
+        title: 'Facebook',
+        icon: < FacebookIconColorful />,
         href: ''
     },
 ]

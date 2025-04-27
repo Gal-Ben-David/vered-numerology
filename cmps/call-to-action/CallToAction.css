@@ -2,7 +2,14 @@
     display: grid;
     gap: 1em;
     padding: 1.3em 0;
+    justify-content: center;
 
     background: var(--light-background);
     color: var(--background);
+
+    & .colorful-social-links {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+    }
 }

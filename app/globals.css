@@ -187,15 +187,25 @@ p {
 .btn:before {
   content: '';
   background: linear-gradient(45deg,
-      #f5f5dc,
-      #f0e4d7,
-      #e8d8c3,
-      #ddd0c8,
-      #d1c7b7,
-      #c2b8a3,
-      #b8aa94,
-      #a89b84,
-      #f5f5dc);
+      #ffe4e1,
+      /* misty rose */
+      #ffc1cc,
+      /* cotton candy */
+      #ffb6c1,
+      /* light pink */
+      #ff99aa,
+      /* pastel pink */
+      #ff7ca8,
+      /* soft rose */
+      #ff5c8a,
+      /* medium pink */
+      #ff3366,
+      /* vibrant pink */
+      #ff1a4b,
+      /* deep pink */
+      #ffe4e1
+      /* back to misty rose */
+    );
   position: absolute;
   top: -2px;
   left: -2px;

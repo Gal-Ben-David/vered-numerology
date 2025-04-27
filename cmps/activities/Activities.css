@@ -20,6 +20,19 @@
             width: 100%;
         }
     }
+
+    & .btn-schedule-workshop {
+        justify-self: center;
+        color: var(--foreground);
+        font-weight: 600;
+    }
+
+    & .btn-schedule-workshop::after {
+        background: #F8899D;
+
+    }
+
+    & .btn-schedule-workshop::before {}
 }
 
 .img-wrapper {
@@ -38,7 +51,6 @@
 .workshop-img {
     object-fit: cover;
     filter: brightness(1.1);
-    /* box-shadow: 0 3px 8px rgba(0, 0, 0, 0.555); */
     cursor: pointer;
 }
 
@@ -61,9 +73,6 @@
             /* dark at bottom */
         );
     pointer-events: none;
-    /* Let clicks pass through */
-    /* border-radius: 0.6em; */
-    /* If your images have rounded corners */
 }
 
 @media (max-width: 767px) {

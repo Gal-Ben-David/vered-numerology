@@ -57,7 +57,13 @@ export function Activities() {
                 <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
                 <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>
-            <a className="btn btn-schedule btn-schedule-workshop">לקביעת סדנה</a>
+            <a className="btn btn-schedule btn-schedule-workshop">
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ededed"><path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" /></svg>
+                </span>
+                <span>לתיאום סדנה</span>
+
+            </a>
 
         </section>
     )
