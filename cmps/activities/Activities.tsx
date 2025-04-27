@@ -57,6 +57,8 @@ export function Activities() {
                 <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
                 <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>
+            <a className="btn btn-schedule btn-schedule-workshop">לקביעת סדנה</a>
+
         </section>
     )
 }
