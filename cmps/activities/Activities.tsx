@@ -2,6 +2,7 @@ import './Activities.css'
 
 import Image from "next/image";
 import { ActivitiesList } from './ActivitiesList';
+import { activitiesIcons } from '@/data/icons';
 
 const workshopList = [
     {
@@ -29,7 +30,7 @@ const workshopList = [
 export function Activities() {
     return (
         <section className="activities full main-layout">
-            <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+            {/* <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
                 <path
                     fill="#fff"
                     fillOpacity="1"
@@ -39,7 +40,7 @@ export function Activities() {
                     L0,320 
                     Z"
                 ></path>
-            </svg>
+            </svg> */}
 
             <div>
                 <p className="rtl">נומרולוגית מובילה בארץ,</p>
@@ -54,6 +55,16 @@ export function Activities() {
             <div className="workshop-description">
                 <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
                 <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
+            </div>
+
+            <div className="workshop-description rtl">
+                <ul className="activities-icon-list">
+                    {activitiesIcons.map((item, i) =>
+                        <li key={i}>
+                            <span>{item.icon}</span>
+                            <span>{item.title}</span>
+                        </li>)}
+                </ul>
             </div>
 
             <a className="btn btn-schedule btn-schedule-workshop">

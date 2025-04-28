@@ -19,10 +19,7 @@
         display: grid;
         align-items: center;
         gap: 1em;
-        padding-block-start: 1.7em;
-        /* height: 80%; */
-
-        /* text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); */
+        padding-block-start: 1.3em;
     }
 }
 

@@ -1,10 +1,10 @@
 .activities {
     position: relative;
     display: grid;
-    padding: 1.3em 0 3em 0;
+    padding: 2em 0 3em 0;
     gap: 2em;
 
-    background: var(--light-background);
+    background: var(--light-background-2);
     color: var(--background);
 
     text-align: center;
@@ -22,12 +22,35 @@
         }
     }
 
+    & .activities-icon-list {
+        display: grid;
+        grid-template-columns: 100px 100px;
+        justify-content: center;
+        row-gap: 2em;
+        column-gap: 2em;
+
+        &>*:nth-last-child(1) {
+            grid-column: 1/-1;
+            justify-self: center;
+        }
+
+        & li {
+            display: grid;
+            grid-template-rows: 70px;
+            gap: .3em;
+
+            /* *>:nth-child(odd) {
+                filter: brightness(0) saturate(100%) invert(78%) sepia(54%) saturate(264%) hue-rotate(358deg) brightness(91%) contrast(84%);
+            } */
+        }
+    }
+
     & .btn-schedule-workshop {
         justify-self: center;
         font-weight: 600;
     }
 
-    & .wave {
+    /* & .wave {
         grid-column: 1/-1;
         position: absolute;
         top: -60px;
@@ -36,7 +59,7 @@
         height: 100px;
         z-index: -1;
         pointer-events: none;
-    }
+    } */
 }
 
 .img-wrapper {

@@ -4,9 +4,12 @@
   --background: #444;
   --foreground: #ededed;
   --light-background: #fff;
+  --light-background-2: #F2EFEB;
   --box-shadow: #ededed;
   /* --icon-color: rgb(217, 186, 192); */
   --icon-color: #F8899D;
+  --color-gold: #D7BB83;
+  --color-brown: #712D2D;
   --clr-btn: #F8899D;
 }
 
@@ -42,7 +45,7 @@ h4 {
 h1 {
   .about & {
     font-size: 2rem;
-    margin-block-end: .5em;
+    margin-block-end: .3em;
   }
 }
 
@@ -50,6 +53,11 @@ h2 {
   .about & {
     font-size: 1.2rem;
     margin-block-end: .2em;
+  }
+
+  .activities & {
+    color: var(--color-gold);
+    /* text-shadow: 3px 3px 3px #fff; */
   }
 
   .workshop-description & {
@@ -97,7 +105,7 @@ img {
 }
 
 p {
-  width: 13em;
+  width: 12em;
   margin: 0;
   justify-self: center;
 
@@ -105,6 +113,7 @@ p {
     line-height: 1.6;
     font-size: 1.3rem;
     margin: auto;
+    width: 13em;
   }
 
   .meeting-description & {
@@ -169,6 +178,7 @@ p {
 
   color: var(--light-background);
   background-color: var(--clr-btn);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
   & svg {
     margin-block-start: .35em;

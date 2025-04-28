@@ -82,13 +82,13 @@ export const socialLinks = [
         href: ''
     },
     {
-        title: 'Instagram',
-        icon: <InstagramIcon />,
+        title: 'Facebook',
+        icon: <FacebookIcon />,
         href: ''
     },
     {
-        title: 'Facebook',
-        icon: <FacebookIcon />,
+        title: 'Instagram',
+        icon: <InstagramIcon />,
         href: ''
     },
 ]
