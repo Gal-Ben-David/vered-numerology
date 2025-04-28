@@ -7,6 +7,7 @@ const BirthdayIcon = () => (
         width={60}
         height={60}
         className="activities-icon"
+        loading="lazy"
     />
 )
 
@@ -17,6 +18,7 @@ const RingIcon = () => (
         width={60}
         height={60}
         className="activities-icon"
+        loading="lazy"
     />
 )
 
@@ -27,6 +29,7 @@ const WineGlassIcon = () => (
         width={60}
         height={60}
         className="activities-icon"
+        loading="lazy"
     />
 )
 
