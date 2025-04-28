@@ -1,14 +1,15 @@
 .about {
     position: relative;
 
+
     & .about-content {
         display: grid;
         justify-content: center;
         text-align: center;
-        gap: 1em;
+        gap: 1.5em;
 
         margin-block-start: 11em;
-        padding-block-end: 2em;
+        padding-block-end: 5em;
     }
 }
 

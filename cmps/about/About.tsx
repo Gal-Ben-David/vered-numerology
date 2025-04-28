@@ -24,10 +24,8 @@ export function About() {
                     <h2 className="rtl">נומרולוגיה, ייעוץ והכוונה</h2>
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
-
                 <SocialLinks />
             </div>
-
         </section>
     )
 }

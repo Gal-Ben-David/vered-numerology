@@ -1,6 +1,7 @@
 import './Activities.css'
 
 import Image from "next/image";
+import { ActivitiesList } from './ActivitiesList';
 
 const workshopList = [
     {
@@ -28,6 +29,18 @@ const workshopList = [
 export function Activities() {
     return (
         <section className="activities full main-layout">
+            <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path
+                    fill="#fff"
+                    fillOpacity="1"
+                    d="M0,70 
+                    C360,290 1080,40 1440,80 
+                    L1500,320 
+                    L0,320 
+                    Z"
+                ></path>
+            </svg>
+
             <div>
                 <p className="rtl">נומרולוגית מובילה בארץ,</p>
                 <p className="rtl"> מקדמת אנשים להתפתחות והעצמה אישית ✨</p>
@@ -35,34 +48,19 @@ export function Activities() {
 
             <div>
                 <h2>רשימת סדנאות</h2>
-                <ul className="activities-list">
-                    {workshopList.map((item, i) =>
-                        <li className="activity" key={i}>
-                            <h3 className="workshop-title">{item.title}</h3>
-                            <div className="img-wrapper">
-                                <Image
-                                    className="workshop-img"
-                                    src={item.src}
-                                    alt="workshop"
-                                    fill
-                                    sizes="(max-width: 768px) 260px, 300px"
-                                    loading="lazy"
-                                />
-                            </div>
-                        </li>)}
-                </ul>
+                <ActivitiesList activities={workshopList} />
             </div>
 
             <div className="workshop-description">
                 <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
                 <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>
+
             <a className="btn btn-schedule btn-schedule-workshop">
                 <span>
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ededed"><path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" /></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" /></svg>
                 </span>
                 <span>לתיאום סדנה</span>
-
             </a>
 
         </section>
