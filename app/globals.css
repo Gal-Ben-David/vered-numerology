@@ -28,7 +28,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
-  font-family: 'Varela Round', sans-serif;
+  font-family: 'Assistant', sans-serif;
   text-align: center;
 }
 
@@ -48,7 +48,7 @@ h1 {
 
 h2 {
   .about & {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin-block-end: .2em;
   }
 
@@ -108,9 +108,9 @@ p {
   }
 
   .meeting-description & {
-    width: 18em;
+    width: 16em;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.1rem;
 
   }
 
@@ -159,7 +159,7 @@ p {
 
 .btn {
   position: relative;
-  padding: .6em 1.3em;
+  padding: .5em 1.3em;
   border-radius: 100px;
 
   display: flex;
@@ -171,7 +171,7 @@ p {
   background-color: var(--clr-btn);
 
   & svg {
-    margin-block-start: .3em;
+    margin-block-start: .35em;
   }
 }
 

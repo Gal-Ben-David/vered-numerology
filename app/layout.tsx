@@ -22,6 +22,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
     <html lang="he">
+      <head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap&subset=hebrew"
+          rel="stylesheet"
+        />
+      </head>
       <body suppressHydrationWarning>
         <div className="app-container">
           <main className="content-container">{children}</main>

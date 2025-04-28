@@ -4,7 +4,7 @@ export function Meetings() {
     return (
         <section className="meetings cover full main-layout rtl">
             <h2 className="bold">פגישות אישיות</h2>
-            <div className="meeting-description bold">
+            <div className="meeting-description">
                 <p>אני מזמינה אתכם לתאם איתי פתיחת מפה נומרולוגית רחבה — בה נגלה יחד את מפת הדרכים האישית שלכם ונביא בהירות
                     והבנה לעיתוי ולמקום שבו אתם נמצאים כעת.
                 </p>
