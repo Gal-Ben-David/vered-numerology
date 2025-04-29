@@ -7,10 +7,11 @@
   --light-background-2: #F2EFEB;
   --box-shadow: #ededed;
   /* --icon-color: rgb(217, 186, 192); */
-  --icon-color: #F8899D;
+  --icon-color: #F6A594;
   --color-gold: #D7BB83;
   --color-brown: #712D2D;
-  --clr-btn: #F8899D;
+  --color-peach: #F6A594;
+  --clr-btn: #F6A594;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -57,7 +58,6 @@ h2 {
 
   .activities & {
     color: var(--color-gold);
-    /* text-shadow: 3px 3px 3px #fff; */
   }
 
   .workshop-description & {
@@ -93,10 +93,6 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
-
-  /* &.btn-schedule-meeting {
-    background-color: #f8899dd4;
-  } */
 }
 
 img {
@@ -149,7 +145,7 @@ p {
 }
 
 .cover-img {
-  background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1745419082/cover-img_bntgwq.jpg');
+  background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1745910915/cover-img_small_z9c5am.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -164,6 +160,10 @@ p {
 
 .large {
   font-size: 1.3rem;
+}
+
+.gold {
+  color: var(--color-gold);
 }
 
 .btn {

@@ -9,6 +9,11 @@
 
     text-align: center;
 
+    & .activities-description {
+        display: grid;
+        gap: 1em;
+    }
+
     & .activities-list {
         display: grid;
         justify-content: center;
@@ -36,12 +41,9 @@
 
         & li {
             display: grid;
+            justify-items: center;
             grid-template-rows: 70px;
             gap: .3em;
-
-            /* *>:nth-child(odd) {
-                filter: brightness(0) saturate(100%) invert(78%) sepia(54%) saturate(264%) hue-rotate(358deg) brightness(91%) contrast(84%);
-            } */
         }
     }
 

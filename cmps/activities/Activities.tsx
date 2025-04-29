@@ -30,21 +30,16 @@ const workshopList = [
 export function Activities() {
     return (
         <section className="activities full main-layout">
-            {/* <svg className="wave" viewBox="0 0 1440 320" preserveAspectRatio="none">
-                <path
-                    fill="#fff"
-                    fillOpacity="1"
-                    d="M0,70 
-                    C360,290 1080,40 1440,80 
-                    L1500,320 
-                    L0,320 
-                    Z"
-                ></path>
-            </svg> */}
-
-            <div>
-                <p className="rtl">נומרולוגית מובילה בארץ,</p>
-                <p className="rtl"> מקדמת אנשים להתפתחות והעצמה אישית ✨</p>
+            <div className="activities-description rtl">
+                <p >
+                    <span className="bold">
+                        נומרולוגית מובילה בארץ
+                    </span>
+                    <br />
+                    מקדמת אנשים להתפתחות, צמיחה והעצמה אישית ✨
+                </p>
+                <p> בעלת קליניקה פרטית לפגישות אישיות - ליחידים ולזוגות.</p>
+                <p>מעבירה סדנאות חוויתיות לקבוצות - בכל שלב ובכל צומת בחיים.</p>
             </div>
 
             <div>
@@ -52,16 +47,16 @@ export function Activities() {
                 <ActivitiesList activities={workshopList} />
             </div>
 
-            <div className="workshop-description">
-                <h2 className="rtl">מחפשים חוויה ייחודית?</h2>
-                <p className="rtl"> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
+            <div className="workshop-description rtl">
+                <h2 >מחפשים חוויה ייחודית?</h2>
+                <p> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>
 
             <div className="workshop-description rtl">
                 <ul className="activities-icon-list">
                     {activitiesIcons.map((item, i) =>
-                        <li key={i}>
-                            <span>{item.icon}</span>
+                        <li key={i} className="icon-container">
+                            <div className="activities-icon">{item.icon}</div>
                             <span>{item.title}</span>
                         </li>)}
                 </ul>

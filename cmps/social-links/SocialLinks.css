@@ -10,16 +10,17 @@
 
         & .icon-container {
             display: grid;
+            justify-items: center;
         }
     }
 
     & .icon {
-        width: 50px;
-        height: 50px;
+        /* width: 50px;
+        height: 50px; */
         border-radius: 50%;
         justify-self: center;
 
-        filter: brightness(0) saturate(100%) invert(78%) sepia(61%) saturate(1845%) hue-rotate(299deg) brightness(114%) contrast(112%);
+        filter: brightness(0) saturate(100%) invert(85%) sepia(9%) saturate(7477%) hue-rotate(305deg) brightness(113%) contrast(93%);
         transition: .5s ease;
     }
 
