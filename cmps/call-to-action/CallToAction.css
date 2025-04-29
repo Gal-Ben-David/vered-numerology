@@ -1,7 +1,7 @@
 .call-to-action {
     display: grid;
     gap: 1em;
-    padding: 1.3em 0;
+    padding: 0 0 1.3em 0;
     justify-content: center;
 
     background: var(--light-background-2);

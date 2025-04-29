@@ -47,3 +47,14 @@ export const activitiesIcons = [
         icon: <WineGlassIcon />,
     },
 ]
+
+export const DateIcon = () => (
+    <Image
+        src="/icons/date-icon.svg"
+        alt="date"
+        width={60}
+        height={60}
+        className="calculator-icon"
+        loading="lazy"
+    />
+)

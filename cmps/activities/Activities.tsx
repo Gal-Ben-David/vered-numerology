@@ -42,6 +42,8 @@ export function Activities() {
                 <p>מעבירה סדנאות חוויתיות לקבוצות - בכל שלב ובכל צומת בחיים.</p>
             </div>
 
+            <hr />
+
             <div>
                 <h2>רשימת סדנאות</h2>
                 <ActivitiesList activities={workshopList} />

@@ -5,6 +5,7 @@ import { Footer } from "@/cmps/footer/Footer";
 import { Activities } from "@/cmps/activities/Activities";
 import { CallToAction } from "@/cmps/call-to-action/CallToAction";
 import { Meetings } from "@/cmps/meetings/Meetings";
+import { Calculator } from "@/cmps/calculator/Calculator";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About />
       <Activities />
       <Meetings />
+      <Calculator />
       <CallToAction />
       <Footer />
     </main>

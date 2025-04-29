@@ -1,0 +1,13 @@
+.calculator {
+    display: grid;
+    gap: 1em;
+    padding: 2em 0;
+    background: var(--light-background-2);
+    color: var(--background);
+
+    & .date {
+        display: grid;
+        gap: .5em;
+        padding-block-start: 1em;
+    }
+}
