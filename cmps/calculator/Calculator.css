@@ -10,4 +10,47 @@
         gap: .5em;
         padding-block-start: 1em;
     }
+
+    & .date-calculator-form {
+        display: grid;
+        justify-items: center;
+        gap: 2em;
+
+        & .btn-calculator {
+            width: 7em;
+            font-size: 1rem;
+        }
+    }
+
+    & .date-inputs {
+        display: flex;
+        flex-direction: row-reverse;
+        gap: .6em;
+        justify-content: center;
+
+        & .date-input {
+            display: grid;
+            gap: .5em;
+        }
+    }
+}
+
+input {
+    text-align: center;
+    font-family: inherit;
+    border: none;
+    border-radius: .5em;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.day-input,
+.month-input {
+    width: 3em;
+    height: 2em;
+}
+
+.year-input {
+    width: 5em;
+    height: 2em;
 }
