@@ -58,3 +58,23 @@ export const DateIcon = () => (
         loading="lazy"
     />
 )
+export const EnvelopeIcon = () => (
+    <Image
+        src="/icons/envelope-icon.svg"
+        alt="email"
+        width={20}
+        height={20}
+        className="email-icon contact-icon"
+        loading="lazy"
+    />
+)
+export const TelephoneIcon = () => (
+    <Image
+        src="/icons/telephone-icon-2.svg"
+        alt="phone"
+        width={20}
+        height={20}
+        className="telephone-icon contact-icon"
+        loading="lazy"
+    />
+)

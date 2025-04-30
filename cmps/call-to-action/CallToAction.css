@@ -21,6 +21,18 @@
         display: grid;
         justify-items: center;
         gap: .5em;
+
+        text-align: right;
+
+        & .contact-icon-container {
+            display: flex;
+            align-items: center;
+
+            & .contact-icon {
+                margin-block-start: .2em;
+                filter: brightness(0) saturate(100%) invert(67%) sepia(95%) saturate(372%) hue-rotate(309deg) brightness(106%) contrast(93%);
+            }
+        }
     }
 
     & .icon-container {
@@ -30,7 +42,6 @@
 
         background-color: var(--color-peach);
         border-radius: 50%;
-
 
         width: 50px;
         height: 50px;
