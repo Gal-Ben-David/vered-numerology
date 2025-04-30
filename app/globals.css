@@ -9,6 +9,7 @@
   /* --icon-color: rgb(217, 186, 192); */
   --icon-color: #F6A594;
   --color-gold: #D7BB83;
+  --color-haki: #9B7C4B;
   --color-brown: #712D2D;
   --color-green: #8ed6a6;
   --color-peach: #F6A594;
@@ -24,10 +25,11 @@
   }
 }
 
-html,
+/* html,
 body {
   overflow-x: hidden;
-}
+  
+} */
 
 body {
   color: var(--foreground);
@@ -199,7 +201,7 @@ p {
 
   font-family: inherit;
   color: var(--color-brown);
-  background-color: var(--clr-btn);
+  background-color: var(--color-peach);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
   & svg {

@@ -12,7 +12,7 @@ const workshopList = [
     },
     {
         title: 'הקול בראש',
-        src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1746007660/inner-voice_nlpyrd.jpg',
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/f_webp/inner_voice_1_dgk3fq.jpg',
         blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/inner_voice_1_dgk3fq.jpg'
     },
     {

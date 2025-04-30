@@ -8,6 +8,7 @@
     color: var(--background);
 
     text-align: center;
+    content-visibility: auto;
 
     & .activities-description {
         display: grid;
