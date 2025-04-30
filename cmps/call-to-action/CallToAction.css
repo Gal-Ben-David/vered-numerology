@@ -1,11 +1,11 @@
 .call-to-action {
+    position: relative;
     display: grid;
     gap: 1em;
-    padding: 0 0 1.3em 0;
+    padding: 2em 0;
     justify-content: center;
-
-    background: var(--light-background-2);
-    color: var(--background);
+    justify-items: center;
+    overflow-y: hidden;
 
     & .colorful-social-links {
         display: flex;
@@ -14,5 +14,33 @@
 
         width: 14em;
         justify-self: center;
+    }
+
+    & .contact-info {
+        display: grid;
+        justify-items: center;
+        gap: .5em;
+    }
+
+    & .icon-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: var(--color-peach);
+        border-radius: 50%;
+
+
+        width: 50px;
+        height: 50px;
+
+        & .icon {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+    & .icon {
+        filter: brightness(0) saturate(100%) invert(18%) sepia(13%) saturate(6971%) hue-rotate(335deg) brightness(89%) contrast(79%);
     }
 }

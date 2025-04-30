@@ -70,6 +70,17 @@ const InstagramIconColorful = () => (
     />
 )
 
+export const TiktokIcon = () => (
+    <Image
+        src="/icons/tiktok-icon.svg"
+        alt="tiktok"
+        width={50}
+        height={50}
+        className="icon"
+        loading="lazy"
+    />
+)
+
 export const socialLinks = [
     {
         title: 'Whatsapp',

@@ -78,8 +78,6 @@ export function Calculator() {
                 errorMessage={errorMessage} />
 
             {pathNumber && <PathNumberCard pathNumber={pathNumber} />}
-
-            <hr />
         </section>
     )
 }
