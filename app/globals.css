@@ -25,12 +25,6 @@
   }
 }
 
-/* html,
-body {
-  overflow-x: hidden;
-  
-} */
-
 body {
   color: var(--foreground);
   background: var(--background);
@@ -122,6 +116,12 @@ p {
     font-size: 1.3rem;
     margin: auto;
     width: 13em;
+  }
+
+  &.workshop-description {
+    width: 10em;
+    word-wrap: break-word;
+    padding-block-start: 1em;
   }
 
   .meeting-description & {

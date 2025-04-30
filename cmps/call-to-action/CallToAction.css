@@ -27,6 +27,7 @@
         & .contact-icon-container {
             display: flex;
             align-items: center;
+            width: 20px;
 
             & .contact-icon {
                 margin-block-start: .2em;

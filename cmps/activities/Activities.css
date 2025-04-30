@@ -40,6 +40,8 @@
         display: grid;
         justify-content: center;
         align-items: center;
+        gap: 3em;
+
         position: relative;
 
         & li {
@@ -66,8 +68,6 @@
             justify-items: center;
             grid-template-rows: 70px;
             gap: .3em;
-
-
         }
     }
 
@@ -106,7 +106,7 @@
             /* fade out */
             rgba(0, 0, 0, 0.139) 40%,
             /* stay transparent */
-            rgba(0, 0, 0, 0.724) 110%
+            rgba(0, 0, 0, 0.7) 90%
             /* dark at bottom */
         );
     pointer-events: none;
@@ -114,15 +114,15 @@
 
 @media (max-width: 767px) {
     .activities-list {
-        grid-auto-rows: 300px;
+        grid-auto-rows: auto;
         grid-template-columns: 260px;
+        margin-block-start: 1.5em;
     }
 }
 
 @media (min-width: 768px) {
     .activities-list {
-        grid-auto-rows: 300px;
-        grid-template-columns: repeat(2, 260px);
-        gap: 4em;
+        grid-template-columns: repeat(4, 260px);
+        margin-block-start: 1.5em;
     }
 }
