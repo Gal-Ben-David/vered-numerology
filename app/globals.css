@@ -137,6 +137,11 @@ p {
     font-size: 1.3rem;
     line-height: 1.5;
   }
+
+  .number-card & {
+    width: 14em;
+    line-height: 1.5;
+  }
 }
 
 .app-container {

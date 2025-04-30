@@ -3,6 +3,7 @@ import { DateIcon } from '@/data/icons'
 import './Calculator.css'
 import { useState } from 'react'
 import { CalculatorForm } from './CalculatorForm'
+import { PathNumberCard } from '../path-number-card/PathNumberCard'
 
 export function Calculator() {
     const [date, setDate] = useState<{ day: string; month: string; year: string }>({
@@ -75,6 +76,8 @@ export function Calculator() {
                 date={date} pathNumber={pathNumber}
                 handleChange={handleChange}
                 errorMessage={errorMessage} />
+
+            {pathNumber && <PathNumberCard pathNumber={pathNumber} />}
 
             <hr />
         </section>

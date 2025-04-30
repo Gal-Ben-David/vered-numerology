@@ -9,6 +9,10 @@
         display: grid;
         gap: .8em;
         padding-block-start: 1em;
+
+        & .calculator-icon {
+            filter: brightness(0) saturate(100%) invert(19%) sepia(11%) saturate(3322%) hue-rotate(315deg) brightness(109%) contrast(90%);
+        }
     }
 
     & .calculator-icon-container {

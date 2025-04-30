@@ -67,9 +67,6 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                 <button className="btn bold btn-form btn-calculator">חישוב</button>
                 <button className="btn bold btn-clear btn-calculator" onClick={clearForm}>איפוס</button>
             </div>
-
-            {pathNumber &&
-                <div><span>{pathNumber}</span></div>}
         </form>
     )
 }
