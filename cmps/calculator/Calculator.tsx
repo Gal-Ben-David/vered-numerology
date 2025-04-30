@@ -2,9 +2,57 @@
 import { DateIcon } from '@/data/icons'
 import './Calculator.css'
 import { useState } from 'react'
+import { CalculatorForm } from './CalculatorForm'
 
 export function Calculator() {
-    const [date, setDate] = useState<number | null>(0)
+    const [date, setDate] = useState<{ day: string; month: string; year: string }>({
+        day: '',
+        month: '',
+        year: '',
+    })
+    const [pathNumber, setPathNumber] = useState<number | null>(null)
+    const [errorMessage, setErrorMessage] = useState<string>('')
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+        const { value, name } = e.target
+        if (errorMessage) setErrorMessage('')
+        setDate(prev => ({ ...prev, [name]: value }))
+    }
+
+    const sumDigits = (num: number): number => {
+        return num
+            .toString()
+            .split('')
+            .reduce((acc, curr) => acc + (+curr), 0)
+    }
+
+    const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+        e.preventDefault()
+        if (date.year.length < 4) {
+            setErrorMessage('*שנה צריכה לכלול 4 ספרות')
+            return
+        }
+        const dayCalc = sumDigits(+date.day)
+        const monthCalc = sumDigits(+date.month)
+        const yearCalc = sumDigits(+date.year)
+
+        let sum = dayCalc + monthCalc + yearCalc
+        if (sum >= 10) {
+            sum = sumDigits(sum)
+        }
+        setPathNumber(sum)
+    }
+
+    const clearForm = () => {
+        setDate({
+            day: '',
+            month: '',
+            year: '',
+        })
+        setPathNumber(null)
+        setErrorMessage('')
+    }
+
     return (
         <section className="calculator full main-layout rtl">
             <h2>מחשבון שביל גורל</h2>
@@ -15,28 +63,19 @@ export function Calculator() {
             </p>
 
             <div className="date">
-                <DateIcon />
+                <div className="calculator-icon-container">
+                    <DateIcon />
+                </div>
                 <p>הכניסו את תאריך הלידה וגלו מהו מספר הגורל שמלווה אתכם</p>
             </div>
 
-            <form className="date-calculator-form">
-                <div className="date-inputs">
-                    <label className="date-input">
-                        <span>יום</span>
-                        <input className="day-input" type="number" inputMode="numeric" pattern="[0-9]*" placeholder="DD" required />
-                    </label>
-                    <label className="date-input">
-                        <span>חודש</span>
-                        <input className="month-input" type="number" inputMode="numeric" pattern="[0-9]*" placeholder="MM" required />
-                    </label>
-                    <label className="date-input">
-                        <span>שנה</span>
-                        <input className="year-input" type="number" inputMode="numeric" pattern="[0-9]*" placeholder="YYYY" required />
-                    </label>
-                </div>
+            <CalculatorForm
+                onSubmit={onSubmit}
+                clearForm={clearForm}
+                date={date} pathNumber={pathNumber}
+                handleChange={handleChange}
+                errorMessage={errorMessage} />
 
-                <button className="btn bold btn-calculator">חשב</button>
-            </form>
             <hr />
         </section>
     )

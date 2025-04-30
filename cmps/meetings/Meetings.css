@@ -12,7 +12,7 @@
     justify-items: center;
     grid-auto-rows: 80px 1fr 95px;
 
-    background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1745739241/candle-book-cover_s2jbvl.jpg');
+    background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745739241/candle-book-cover_s2jbvl.jpg');
     z-index: 0;
 
     & .meeting-description {

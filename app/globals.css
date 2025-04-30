@@ -12,6 +12,8 @@
   --color-brown: #712D2D;
   --color-peach: #F6A594;
   --clr-btn: #F6A594;
+  --clr-btn-clear: #c3c3c3;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -157,7 +159,7 @@ p {
 }
 
 .cover-img {
-  background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/v1745910915/cover-img_small_z9c5am.jpg');
+  background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745910915/cover-img_small_z9c5am.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -196,6 +198,10 @@ p {
 
   & svg {
     margin-block-start: .35em;
+  }
+
+  &.btn-clear {
+    background-color: var(--clr-btn-clear);
   }
 }
 

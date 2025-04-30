@@ -7,23 +7,23 @@ import { activitiesIcons } from '@/data/icons';
 const workshopList = [
     {
         title: 'בעקבות המספרים',
-        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/numbers_1_zvy7ye.jpg',
-        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/numbers_1_zvy7ye.jp'
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745598978/numbers_1_zvy7ye.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/numbers_1_zvy7ye.jp'
     },
     {
         title: 'הקול בראש',
-        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/inner_voice_1_dgk3fq.jpg',
-        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/inner_voice_1_dgk3fq.jpg'
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745598978/inner_voice_1_dgk3fq.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/inner_voice_1_dgk3fq.jpg'
     },
     {
         title: 'חכמת נשים',
-        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/women-bible_qxhlkx.jpg',
-        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/women-bible_qxhlkx.jpg'
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745598978/women-bible_qxhlkx.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/women-bible_qxhlkx.jpg'
     },
     {
         title: 'בניית חזון אישי',
-        src: 'https://res.cloudinary.com/dvykycdey/image/upload/v1745598978/vision_1_tct4wp.jpg',
-        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/e_blur:2000,q_1/v1745598978/vision_1_tct4wp.jpg'
+        src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745598978/vision_1_tct4wp.jpg',
+        blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/vision_1_tct4wp.jpg'
     },
 ]
 
