@@ -13,7 +13,7 @@ export function SocialLinks() {
                         rel="noopener noreferrer"
                         className="icon-container"
                     >
-                        <div className="icon">{link.icon}</div>
+                        <div className="icon-wrapped">{link.icon}</div>
                         <div>{link.title}</div>
                     </a>
                 </li>

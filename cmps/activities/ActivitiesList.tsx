@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Image from "next/image";
 import { ActivitiesListProps } from '../../interfaces/interfaces'
 import { useState } from 'react';
+import './ActivitiesList.css'
 
 export function ActivitiesList({ activities }: ActivitiesListProps) {
 
@@ -28,19 +29,8 @@ export function ActivitiesList({ activities }: ActivitiesListProps) {
                             loading="lazy"
                         />
                     </div>
-                    <AnimatePresence initial={false}>
-                        {openIndex === i && (
-                            <motion.div
-                                className="workshop-description"
-                                initial={{ height: 0, opacity: 0 }}
-                                animate={{ height: 'auto', opacity: 1 }}
-                                exit={{ height: 0, opacity: 0 }}
-                                transition={{ duration: 0.4 }}
-                            >
-                                <p className="workshop-description">{item.description}</p>
-                            </motion.div>
-                        )}
-                    </AnimatePresence>
+
+                    <p className="workshop-description">{item.description}</p>
                 </li>)}
         </ul>
     )

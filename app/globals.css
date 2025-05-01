@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 :root {
-  --background: #444;
+  --background: #9B9472;
+  --font: #696B4C;
+  /* --background: #B59D7F; */
   --foreground: #ededed;
   --light-background: #fff;
   --light-background-2: #F2EFEB;
@@ -16,6 +18,15 @@
   --clr-btn: #F6A594;
   --clr-btn-clear: #c3c3c3;
 
+  --color-oil-green: #696B4C;
+  --color-dark-green: #565746;
+  --color-dark-green-2: #4E5130;
+  --color-light-green-1: #C2C2AA;
+  --color-beige: #D2C9C2;
+
+  --filter-oil-green: brightness(0) saturate(100%) invert(39%) sepia(35%) saturate(312%) hue-rotate(25deg) brightness(96%) contrast(90%);
+  --filter-gold: brightness(0) saturate(100%) invert(81%) sepia(16%) saturate(804%) hue-rotate(2deg) brightness(94%) contrast(85%);
+  --filter-dark-green: brightness(0) saturate(100%) invert(34%) sepia(16%) saturate(451%) hue-rotate(24deg) brightness(92%) contrast(91%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -107,21 +118,26 @@ img {
 }
 
 p {
-  width: 12em;
   margin: 0;
   justify-self: center;
 
-  .activities & {
+  .activities-description & {
     line-height: 1.6;
     font-size: 1.3rem;
-    margin: auto;
-    width: 13em;
+  }
+
+  .workshop-description & {
+    line-height: 1.6;
+    font-size: 1.3rem;
   }
 
   &.workshop-description {
-    width: 10em;
     word-wrap: break-word;
     padding-block-start: 1em;
+    width: 12em;
+
+    font-size: 1.2rem;
+    text-align: right;
   }
 
   .meeting-description & {
@@ -149,12 +165,17 @@ p {
   &.contact-details {
     display: flex;
     gap: .5em;
+    justify-self: start;
   }
 
   &.all-rights-reserved {
     width: 14em;
     font-size: 1rem;
     padding-block-start: .5em;
+  }
+
+  &.p-regular {
+    width: 12em;
   }
 }
 
@@ -185,6 +206,8 @@ p {
 
   width: 100%;
   height: 500px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .rtl {
@@ -211,12 +234,17 @@ p {
   border: none;
 
   font-family: inherit;
-  color: var(--color-brown);
-  background-color: var(--color-peach);
+  color: var(--foreground);
+  background-color: var(--color-dark-green);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 
   & svg {
     margin-block-start: .4em;
+  }
+
+  &.btn-schedule-meeting {
+    background-color: var(--color-light-green-1);
+    color: var(--color-dark-green-2);
   }
 
   &.btn-clear {

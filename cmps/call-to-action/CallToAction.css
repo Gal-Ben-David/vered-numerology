@@ -31,7 +31,7 @@
 
             & .contact-icon {
                 margin-block-start: .2em;
-                filter: brightness(0) saturate(100%) invert(67%) sepia(95%) saturate(372%) hue-rotate(309deg) brightness(106%) contrast(93%);
+                filter: var(--filter-dark-green)
             }
         }
     }
@@ -41,7 +41,7 @@
         align-items: center;
         justify-content: center;
 
-        background-color: var(--color-peach);
+        background-color: var(--color-gold);
         border-radius: 50%;
 
         width: 50px;
@@ -54,6 +54,6 @@
     }
 
     & .icon {
-        filter: brightness(0) saturate(100%) invert(18%) sepia(13%) saturate(6971%) hue-rotate(335deg) brightness(89%) contrast(79%);
+        filter: var(--filter-oil-green);
     }
 }

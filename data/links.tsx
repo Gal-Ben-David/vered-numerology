@@ -6,7 +6,7 @@ const WhatsappIcon = () => (
         alt="whatsapp"
         width={50}
         height={50}
-        className="icon"
+        className="icon social-icon"
     />
 )
 
@@ -16,7 +16,7 @@ const MobileIcon = () => (
         alt="phone"
         width={50}
         height={50}
-        className="icon"
+        className="icon social-icon"
     />
 )
 
@@ -26,7 +26,7 @@ const InstagramIcon = () => (
         alt="instagram"
         width={50}
         height={50}
-        className="icon"
+        className="icon social-icon"
     />
 )
 
@@ -36,7 +36,7 @@ const FacebookIcon = () => (
         alt="facebook"
         width={50}
         height={50}
-        className="icon"
+        className="icon social-icon"
     />
 )
 

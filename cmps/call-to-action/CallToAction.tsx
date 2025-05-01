@@ -10,8 +10,8 @@ export function CallToAction() {
 
     return (
         <section className="call-to-action full rtl">
-            <p className="rtl large bold">סקרנים לדעת מה עוד אומרים עליכם המספרים?</p>
-            <p className="rtl large">בואו נדבר 👇</p>
+            <p className="large bold p-regular">סקרנים לדעת מה עוד אומרים עליכם המספרים?</p>
+            <p className="large">בואו נדבר 👇</p>
 
             <div className="contact-info">
                 <div className="icon-container">
@@ -29,7 +29,7 @@ export function CallToAction() {
 
             <hr />
 
-            <p>מוזמנים לעקוב אחריי ברשתות לתוכן איכות ומעצים </p>
+            <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכות ומעצים </p>
             <ul className="colorful-social-links">
                 <li className="icon-container">
                     {instagramIcon.icon}
