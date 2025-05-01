@@ -1,0 +1,10 @@
+.show-txt-btn {
+    background-color: transparent;
+    border: none;
+    margin-block-start: .5em;
+    color: inherit;
+
+    font-size: .9rem;
+    font-family: inherit;
+    text-decoration: underline;
+}

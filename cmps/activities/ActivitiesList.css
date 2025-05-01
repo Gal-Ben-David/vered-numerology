@@ -6,6 +6,7 @@
     gap: 3em;
 
     position: relative;
+    padding-block-end: 1em;
 
     & li {
         position: relative;

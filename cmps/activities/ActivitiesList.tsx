@@ -4,6 +4,7 @@ import Image from "next/image";
 import { ActivitiesListProps } from '../../interfaces/interfaces'
 import { useState } from 'react';
 import './ActivitiesList.css'
+import { LongTxt } from '../long-txt/LongTxt';
 
 export function ActivitiesList({ activities }: ActivitiesListProps) {
 
@@ -30,7 +31,8 @@ export function ActivitiesList({ activities }: ActivitiesListProps) {
                         />
                     </div>
 
-                    <p className="workshop-description">{item.description}</p>
+                    <LongTxt className={'workshop-description'} children={item.description} length={75} showButton={true} />
+                    {/* <p className="workshop-description">{item.description}</p> */}
                 </li>)}
         </ul>
     )
