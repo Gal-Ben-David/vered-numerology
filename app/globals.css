@@ -23,10 +23,12 @@
   --color-dark-green-2: #4E5130;
   --color-light-green-1: #C2C2AA;
   --color-beige: #D2C9C2;
+  --color-brown-1: #8E705D;
 
   --filter-oil-green: brightness(0) saturate(100%) invert(39%) sepia(35%) saturate(312%) hue-rotate(25deg) brightness(96%) contrast(90%);
   --filter-gold: brightness(0) saturate(100%) invert(81%) sepia(16%) saturate(804%) hue-rotate(2deg) brightness(94%) contrast(85%);
   --filter-dark-green: brightness(0) saturate(100%) invert(34%) sepia(16%) saturate(451%) hue-rotate(24deg) brightness(92%) contrast(91%);
+  --filter-brown-1: brightness(0) saturate(100%) invert(53%) sepia(11%) saturate(1036%) hue-rotate(340deg) brightness(83%) contrast(89%);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -134,9 +136,9 @@ p {
   &.workshop-description {
     word-wrap: break-word;
     padding-block-start: 1em;
-    width: 12em;
+    width: 14em;
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     text-align: right;
   }
 
@@ -253,7 +255,7 @@ p {
   }
 
   &.btn-form {
-    background-color: var(--color-gold);
+    background-color: var(--color-dark-green);
     color: var(--light-background);
   }
 }

@@ -40,12 +40,17 @@
         display: grid;
         grid-template-columns: 100px 100px;
         justify-content: center;
+        justify-self: center;
         row-gap: 2em;
         column-gap: 2em;
 
         &>*:nth-last-child(1) {
             grid-column: 1/-1;
             justify-self: center;
+        }
+
+        & .activities-icon {
+            filter: var(--filter-brown-1)
         }
 
         & li {

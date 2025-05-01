@@ -19,7 +19,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
         <form className="date-calculator-form" onSubmit={onSubmit}>
             <div className="date-inputs">
                 <label className="date-input">
-                    <span>יום</span>
+                    <span className="bold">יום</span>
                     <input className="day-input"
                         name="day"
                         type="text"
@@ -33,7 +33,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                 </label>
 
                 <label className="date-input">
-                    <span>חודש</span>
+                    <span className="bold">חודש</span>
                     <input className="month-input"
                         name="month"
                         type="text"
@@ -47,7 +47,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                 </label>
 
                 <label className="date-input">
-                    <span>שנה</span>
+                    <span className="bold">שנה</span>
                     <input className="year-input"
                         name="year"
                         type="text"
