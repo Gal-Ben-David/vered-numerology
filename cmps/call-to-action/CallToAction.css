@@ -2,7 +2,7 @@
     position: relative;
     display: grid;
     gap: 1em;
-    padding: 2em 0;
+    padding: 2em 0 1.5em 0;
     justify-content: center;
     justify-items: center;
     overflow-y: hidden;

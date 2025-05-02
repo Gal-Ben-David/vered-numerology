@@ -83,8 +83,8 @@ export const PlusIcon = () => (
     <Image
         src="/icons/plus-icon.svg"
         alt="phone"
-        width={25}
-        height={25}
+        width={24}
+        height={24}
         className="plus-icon"
     />
 )

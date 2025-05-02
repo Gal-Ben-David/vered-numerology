@@ -14,9 +14,9 @@ export function CallToAction() {
             <p className="large">בואו נדבר 👇</p>
 
             <div className="contact-info">
-                <div className="icon-container">
+                <a className="icon-container" href="https://wa.me/972523288279">
                     {whatsappIcon.icon}
-                </div>
+                </a>
                 <p className="contact-details">
                     <span className="contact-icon-container"><EnvelopeIcon /></span>
                     <span>vered.benda@gmail.com</span>

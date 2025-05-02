@@ -1,8 +1,9 @@
 footer {
     display: flex;
     justify-content: center;
-    background: #666;
 
     padding: 1em;
     text-align: center;
+
+    background-color: var(--color-dark-green);
 }

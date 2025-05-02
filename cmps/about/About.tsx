@@ -26,7 +26,7 @@ export function About() {
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
                 <SocialLinks />
-                <a className="save-to-contact bold rtl" href="/file/ורד-בן-דוד.vcf">
+                <a className="save-to-contact bold rtl" href="/file/vered-ben-david.vcf" type="text/vcard">
                     <p>שמרו אותי באנשי הקשר</p>
                     <PlusIcon />
                 </a>
