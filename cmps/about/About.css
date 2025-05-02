@@ -11,6 +11,24 @@
         margin-block-start: 10.5em;
         padding-block-end: 3em;
     }
+
+    & .save-to-contact {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .5em;
+
+        padding: 1em;
+        margin-block-start: .5em;
+
+        border-radius: 30px;
+        background-color: var(--color-oil-green);
+
+        & .plus-icon {
+            width: 30px;
+            filter: var(--filter-white);
+        }
+    }
 }
 
 .profile-img {

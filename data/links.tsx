@@ -85,12 +85,12 @@ export const socialLinks = [
     {
         title: 'Whatsapp',
         icon: <WhatsappIcon />,
-        href: ''
+        href: 'https://wa.me/972523288279'
     },
     {
         title: 'Call me',
         icon: <MobileIcon />,
-        href: ''
+        href: 'tel:+972523288279'
     },
     {
         title: 'Facebook',
@@ -100,7 +100,7 @@ export const socialLinks = [
     {
         title: 'Instagram',
         icon: <InstagramIcon />,
-        href: ''
+        href: 'https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr'
     },
 ]
 

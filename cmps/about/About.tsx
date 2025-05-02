@@ -2,7 +2,7 @@
 import './About.css'
 import { SocialLinks } from '../social-links/SocialLinks'
 import { useEffect, useState } from 'react'
-import Image from "next/image";
+import { PlusIcon } from '@/data/icons'
 
 export function About() {
 
@@ -26,6 +26,10 @@ export function About() {
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
                 <SocialLinks />
+                <a className="save-to-contact bold rtl" href="/file/ורד-בן-דוד.vcf">
+                    <p>שמרו אותי באנשי הקשר</p>
+                    <PlusIcon />
+                </a>
             </div>
         </section>
     )

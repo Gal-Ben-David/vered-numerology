@@ -11,6 +11,7 @@
         & .icon-container {
             display: grid;
             justify-items: center;
+            gap: .5em;
         }
     }
 
@@ -27,6 +28,7 @@
         width: 55px;
         height: 55px;
 
+        box-shadow: 0 0px 8px var(--color-oil-green);
         background-color: var(--color-gold);
         transition: .5s ease;
 

@@ -23,13 +23,13 @@ export function CallToAction() {
                 </p>
                 <p className="contact-details">
                     <span className="contact-icon-container"><TelephoneIcon /></span>
-                    <span>052-4294752</span>
+                    <span>052-3288279</span>
                 </p>
             </div>
 
             <hr />
 
-            <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכות ומעצים </p>
+            <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכותי ומעצים </p>
             <ul className="colorful-social-links">
                 <li className="icon-container">
                     {instagramIcon.icon}

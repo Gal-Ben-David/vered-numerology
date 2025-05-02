@@ -78,3 +78,13 @@ export const TelephoneIcon = () => (
         loading="lazy"
     />
 )
+
+export const PlusIcon = () => (
+    <Image
+        src="/icons/plus-icon.svg"
+        alt="phone"
+        width={25}
+        height={25}
+        className="plus-icon"
+    />
+)
