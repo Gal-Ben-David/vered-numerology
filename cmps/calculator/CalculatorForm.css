@@ -33,6 +33,7 @@ input {
     border: none;
     border-radius: .5em;
     font-size: 1rem;
+    background-color: var(--light-background);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);
 }
 

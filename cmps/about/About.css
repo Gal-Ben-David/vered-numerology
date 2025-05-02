@@ -6,9 +6,9 @@
         display: grid;
         justify-content: center;
         text-align: center;
-        gap: 1.5em;
+        gap: 1.8em;
 
-        margin-block-start: 11em;
+        margin-block-start: 10.5em;
         padding-block-end: 3em;
     }
 }
@@ -16,7 +16,8 @@
 .profile-img {
     position: absolute;
     right: 50%;
-    transform: translate(50%, -70%);
+    top: -10px;
+    transform: translate(50%, -80%);
 
     width: 200px;
     height: 200px;
