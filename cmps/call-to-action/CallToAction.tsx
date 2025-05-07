@@ -34,10 +34,10 @@ export function CallToAction() {
                     <a href="https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr"> {instagramIcon.icon}</a>
                 </li>
                 <li className="icon-container">
-                    {facebookIcon.icon}
+                    <a> {facebookIcon.icon}</a>
                 </li>
                 <li className="icon-container">
-                    <TiktokIcon />
+                    <a> <TiktokIcon /></a>
                 </li>
             </ul>
 
