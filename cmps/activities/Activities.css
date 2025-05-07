@@ -76,6 +76,13 @@
 
 @media (min-width: 768px) {
     .activities-list {
+        grid-template-columns: repeat(2, 260px);
+        margin-block-start: 1.5em;
+    }
+}
+
+@media (min-width: 1300px) {
+    .activities-list {
         grid-template-columns: repeat(4, 260px);
         margin-block-start: 1.5em;
     }

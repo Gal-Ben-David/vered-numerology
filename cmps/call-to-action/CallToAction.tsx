@@ -1,5 +1,4 @@
 import './CallToAction.css'
-import { socialLinksColorful } from '@/data/links'
 import { socialLinks } from '@/data/links'
 import { TiktokIcon } from '@/data/links'
 import { EnvelopeIcon } from '@/data/icons'
@@ -32,7 +31,7 @@ export function CallToAction() {
             <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכותי ומעצים </p>
             <ul className="colorful-social-links">
                 <li className="icon-container">
-                    {instagramIcon.icon}
+                    <a href="https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr"> {instagramIcon.icon}</a>
                 </li>
                 <li className="icon-container">
                     {facebookIcon.icon}

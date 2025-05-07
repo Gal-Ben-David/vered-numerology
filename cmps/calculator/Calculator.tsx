@@ -21,10 +21,12 @@ export function Calculator() {
     }
 
     const sumDigits = (num: number): number => {
-        return num
+        const sum = num
             .toString()
             .split('')
             .reduce((acc, curr) => acc + (+curr), 0)
+
+        return sum >= 10 ? sumDigits(sum) : sum
     }
 
     const onSubmit = (e: React.FormEvent<HTMLFormElement>) => {
@@ -37,11 +39,9 @@ export function Calculator() {
         const monthCalc = sumDigits(+date.month)
         const yearCalc = sumDigits(+date.year)
 
-        let sum = dayCalc + monthCalc + yearCalc
-        if (sum >= 10) {
-            sum = sumDigits(sum)
-        }
-        setPathNumber(sum)
+        const pathNumber = sumDigits(dayCalc + monthCalc + yearCalc)
+
+        setPathNumber(pathNumber)
     }
 
     const clearForm = () => {
