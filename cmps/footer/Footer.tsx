@@ -1,8 +1,21 @@
 import './Footer.css'
+import { EnvelopeIcon } from '@/data/icons'
+import { TelephoneIcon } from '@/data/icons'
+
 export function Footer() {
     return (
         <footer className="full">
-            <p>Built by Gal Ben David</p>
+            <p className="built-by">Built by Gal Ben David</p>
+
+            <div className="gal-contact-info">
+                <p className="contact-details">
+                    <span>gal.benda3@gmail.com | </span>
+                </p>
+
+                <p className="contact-details">
+                    <span>052-4294752</span>
+                </p>
+            </div>
         </footer>
     )
 }

@@ -20,7 +20,7 @@ const MobileIcon = () => (
     />
 )
 
-const InstagramIcon = () => (
+export const InstagramIcon = () => (
     <Image
         src="/icons/instagram-icon.svg"
         alt="instagram"

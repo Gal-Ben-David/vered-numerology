@@ -184,6 +184,12 @@ p {
   &.p-regular {
     width: 12em;
   }
+
+  &.built-by {
+    font-weight: 600;
+  }
+
+  .gal-contact-info & {}
 }
 
 .app-container {

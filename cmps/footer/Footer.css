@@ -1,9 +1,15 @@
 footer {
-    display: flex;
+    display: grid;
     justify-content: center;
+    gap: .5em;
 
     padding: 1em;
     text-align: center;
 
     background-color: var(--color-dark-green);
+
+    & .gal-contact-info {
+        display: flex;
+        gap: .5em;
+    }
 }
