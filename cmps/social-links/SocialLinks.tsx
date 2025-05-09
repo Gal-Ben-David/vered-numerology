@@ -2,10 +2,11 @@ import { socialLinks } from "@/data/links"
 import './SocialLinks.css'
 
 export function SocialLinks() {
+    const [...restLinks] = socialLinks.slice(0, -1)
 
     return (
         <ul className="social-link-list">
-            {socialLinks.map((link, i) =>
+            {restLinks.map((link, i) =>
                 <li key={i}>
                     <a
                         href={link.href}

@@ -20,7 +20,7 @@ const MobileIcon = () => (
     />
 )
 
-export const InstagramIcon = () => (
+const InstagramIcon = () => (
     <Image
         src="/icons/instagram-icon.svg"
         alt="instagram"
@@ -40,7 +40,7 @@ const FacebookIcon = () => (
     />
 )
 
-export const TiktokIcon = () => (
+const TiktokIcon = () => (
     <Image
         src="/icons/tiktok-icon.svg"
         alt="tiktok"
@@ -71,5 +71,10 @@ export const socialLinks = [
         title: 'Instagram',
         icon: <InstagramIcon />,
         href: 'https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr'
+    },
+    {
+        title: 'Tiktok',
+        icon: <TiktokIcon />,
+        href: 'https://www.tiktok.com/@scorp240?_t=ZS-8wD6zSB703M&_r=1'
     },
 ]

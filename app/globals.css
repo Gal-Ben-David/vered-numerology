@@ -65,14 +65,14 @@ h4 {
 h1 {
   .about & {
     font-size: 2rem;
-    margin-block-end: .3em;
+    margin-block-end: .2em;
   }
 }
 
 h2 {
   .about & {
     font-size: 1.2rem;
-    margin-block-end: .2em;
+    margin-block-end: .1em;
   }
 
   .activities &,
@@ -186,10 +186,8 @@ p {
   }
 
   &.built-by {
-    font-weight: 600;
+    font-weight: 550;
   }
-
-  .gal-contact-info & {}
 }
 
 .app-container {
