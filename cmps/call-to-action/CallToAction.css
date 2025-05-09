@@ -31,7 +31,6 @@
 
             & .contact-icon {
                 margin-block-start: .2em;
-                filter: var(--filter-dark-green)
             }
         }
     }
@@ -51,9 +50,5 @@
             width: 40px;
             height: 40px;
         }
-    }
-
-    & .icon {
-        filter: var(--filter-oil-green);
     }
 }

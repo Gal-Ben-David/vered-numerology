@@ -30,13 +30,7 @@ export function CallToAction() {
 
             <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכותי ומעצים </p>
             <ul className="colorful-social-links">
-                <li className="icon-container">
-                    <a href="https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {instagramIcon.icon}
-                    </a>
-                </li>
+
                 <li className="icon-container">
                     <a
                         href='https://www.facebook.com/share/1AUEkc1GNx/?mibextid=wwXIfr'
@@ -44,6 +38,13 @@ export function CallToAction() {
                         rel="noopener noreferrer"
                     >
                         {facebookIcon.icon}
+                    </a>
+                </li>
+                <li className="icon-container">
+                    <a href="https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr"
+                        target="_blank"
+                        rel="noopener noreferrer">
+                        {instagramIcon.icon}
                     </a>
                 </li>
                 <li className="icon-container">

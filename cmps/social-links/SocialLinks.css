@@ -33,7 +33,6 @@
         transition: .5s ease;
 
         & .social-icon {
-            filter: var(--filter-oil-green);
             width: 45px;
             height: 45px;
         }
