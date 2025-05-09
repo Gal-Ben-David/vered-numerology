@@ -40,36 +40,6 @@ const FacebookIcon = () => (
     />
 )
 
-const WhatsappIconColorful = () => (
-    <Image
-        src="/icons/whatsapp-icon-color.svg"
-        alt="whatsapp"
-        width={50}
-        height={50}
-        className="icon"
-    />
-)
-
-const FacebookIconColorful = () => (
-    <Image
-        src="/icons/facebook-icon-color.svg"
-        alt="facebook"
-        width={50}
-        height={50}
-        className="icon"
-    />
-)
-
-const InstagramIconColorful = () => (
-    <Image
-        src="/icons/instagram-icon-color.svg"
-        alt="instagram"
-        width={50}
-        height={50}
-        className="icon"
-    />
-)
-
 export const TiktokIcon = () => (
     <Image
         src="/icons/tiktok-icon.svg"
@@ -95,30 +65,11 @@ export const socialLinks = [
     {
         title: 'Facebook',
         icon: <FacebookIcon />,
-        href: ''
+        href: 'https://www.facebook.com/share/1AUEkc1GNx/?mibextid=wwXIfr'
     },
     {
         title: 'Instagram',
         icon: <InstagramIcon />,
         href: 'https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr'
-    },
-]
-
-export const socialLinksColorful = [
-    {
-        title: 'Whatsapp',
-        icon: < WhatsappIconColorful />,
-        href: ''
-    },
-
-    {
-        title: 'Instagram',
-        icon: < InstagramIconColorful />,
-        href: ''
-    },
-    {
-        title: 'Facebook',
-        icon: < FacebookIconColorful />,
-        href: ''
     },
 ]
