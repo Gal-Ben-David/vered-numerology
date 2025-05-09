@@ -1,5 +1,4 @@
 'use client'
-import { motion, AnimatePresence } from 'framer-motion'
 import Image from "next/image";
 import { ActivitiesListProps } from '../../interfaces/interfaces'
 import { useState } from 'react';

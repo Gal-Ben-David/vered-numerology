@@ -1,6 +1,5 @@
 import './CallToAction.css'
 import { socialLinks } from '@/data/links'
-import { TiktokIcon } from '@/data/links'
 import { ContactDetails } from '../contact/ContactDetails'
 
 export function CallToAction() {
