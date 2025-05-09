@@ -30,7 +30,6 @@ export function CallToAction() {
 
             <p className="p-regular">מוזמנים לעקוב אחריי ברשתות לתוכן איכותי ומעצים </p>
             <ul className="colorful-social-links">
-
                 <li className="icon-container">
                     <a
                         href='https://www.facebook.com/share/1AUEkc1GNx/?mibextid=wwXIfr'
