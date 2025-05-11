@@ -14,7 +14,7 @@ export function About() {
 
 
     return (
-        <section className="about">
+        <section className="about full">
             <div className={`profile-img ${opacity ? 'visible' : ''}`}>
                 <img src="https://res.cloudinary.com/dvykycdey/image/upload/v1745423327/vered-img_genget.jpg" />
             </div>

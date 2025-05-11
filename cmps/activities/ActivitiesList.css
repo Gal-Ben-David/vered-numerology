@@ -1,9 +1,9 @@
 .activities-list {
     display: grid;
-    justify-content: center;
     align-items: center;
     justify-items: center;
-    gap: 3em;
+    justify-content: center;
+    justify-self: center;
 
     position: relative;
     padding-block-end: 1em;
@@ -11,8 +11,7 @@
     & li {
         position: relative;
         display: grid;
-        justify-items: center;
-        width: 100%;
+        align-self: flex-start;
         padding: 1em;
 
         background-color: var(--color-light-green-1);
@@ -56,3 +55,27 @@
         );
     pointer-events: none;
 }
+
+@media (max-width: 767px) {
+    .activities-list {
+        grid-template-columns: 300px;
+        margin-block-start: 1.5em;
+        gap: 3em
+    }
+}
+
+@media (min-width: 768px) {
+    .activities-list {
+        grid-template-columns: repeat(2, 300px);
+        margin-block-start: 1.5em;
+        gap: 3em
+    }
+}
+
+/* @media (min-width: 1300px) {
+    .activities-list {
+        grid-template-columns: repeat(4, 300px);
+        margin-block-start: 1.5em;
+        gap: 1em
+    }
+} */

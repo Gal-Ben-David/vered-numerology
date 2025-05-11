@@ -67,7 +67,7 @@ export function Calculator() {
                 <div className="calculator-icon-container">
                     <DateIcon />
                 </div>
-                <p className="p-regular">הכניסו את תאריך הלידה וגלו מה מספר הגורל שמלווה אתכם</p>
+                <p className="p-regular">הכניסו תאריך לידה וגלו את מספר נתיב החיים שמלווה אתכם</p>
             </div>
 
             <CalculatorForm

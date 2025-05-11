@@ -7,7 +7,7 @@ import { Calculator } from "@/cmps/calculator/Calculator";
 
 export default function Home() {
   return (
-    <main className="main-layout">
+    <>
       <div className="cover-img full">
         <svg
           viewBox="0 0 100 20"
@@ -28,6 +28,6 @@ export default function Home() {
       <Calculator />
       <CallToAction />
       <Footer />
-    </main>
+    </>
   )
 }

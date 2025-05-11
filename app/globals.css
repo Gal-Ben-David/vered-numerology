@@ -3,13 +3,12 @@
 :root {
   --background: #9B9472;
   --font: #696B4C;
-  /* --background: #B59D7F; */
+
   --foreground: #ededed;
   --light-background: #fff;
   --light-background-2: #F2EFEB;
-  --box-shadow: #ededed;
-  /* --icon-color: rgb(217, 186, 192); */
-  --icon-color: #F6A594;
+  --natural-background: #EBE5DE;
+
   --color-gold: #D7BB83;
   --color-haki: #9B7C4B;
   --color-brown: #712D2D;
@@ -40,13 +39,12 @@
 } */
 
 body {
-  color: var(--foreground);
-  background: var(--background);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0;
   font-family: 'Assistant', sans-serif;
   text-align: center;
+  background-color: var(--natural-background);
 }
 
 hr {
@@ -70,6 +68,8 @@ h1 {
 }
 
 h2 {
+  font-size: clamp(1.5rem, 2.5vw, 2rem);
+
   .about & {
     font-size: 1.2rem;
     margin-block-end: .1em;
@@ -87,6 +87,8 @@ h2 {
   .meetings & {
     align-self: center;
     margin-block-start: 2em;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+
   }
 }
 
@@ -138,6 +140,10 @@ p {
     font-size: 1.3rem;
   }
 
+  .intro & {
+    width: clamp(13em, 30vw, 22em);
+  }
+
   &.workshop-description {
     word-wrap: break-word;
     padding-block-start: 1em;
@@ -151,12 +157,14 @@ p {
     width: 16em;
     line-height: 1.5;
     font-size: 1.1rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.3rem);
   }
 
   &.calculator-description {
     width: 14em;
     line-height: 1.5;
     font-size: 1.3rem;
+    width: clamp(14em, 25vw, 22em);
   }
 
   .call-to-action & {
@@ -192,13 +200,19 @@ p {
 
 .app-container {
   display: grid;
-  justify-content: center;
-  width: 100%;
+
+
+  color: var(--foreground);
+}
+
+main.main-layout {
+  margin-inline: auto;
 }
 
 .main-layout {
   display: grid;
-  grid-template-columns: minmax(10px, 280px) minmax(auto, 1800px) minmax(10px, 280px);
+  max-width: 1100px;
+  grid-template-columns: minmax(10px, 1fr) minmax(0, 900px) minmax(10px, 1fr);
 }
 
 .main-layout>* {
@@ -216,7 +230,7 @@ p {
   background-position: center;
 
   width: 100%;
-  height: 500px;
+  height: 33vh;
   position: relative;
 }
 
@@ -255,6 +269,7 @@ p {
   &.btn-schedule-meeting {
     background-color: var(--color-light-green-1);
     color: var(--color-dark-green-2);
+    margin-block-start: 1.7em;
   }
 
   &.btn-clear {
@@ -271,11 +286,5 @@ p {
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
-  }
-}
-
-@media (max-width: 767px) {
-  .cover-img {
-    height: 250px;
   }
 }

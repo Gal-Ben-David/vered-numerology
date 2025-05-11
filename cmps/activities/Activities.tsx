@@ -27,7 +27,7 @@ export function Activities() {
 
             <hr />
 
-            <div className="workshop-description rtl">
+            <div className="workshop-description intro rtl">
                 <h2 >מחפשים חוויה ייחודית?</h2>
                 <p> הסדנאות מתאימות לקבוצות, ימי הולדת, מסיבות רווקות, מקווה - או כל מפגש חברים שרוצים להוסיף לו טאץ' מיוחד!  </p>
             </div>

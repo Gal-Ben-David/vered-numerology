@@ -3,14 +3,14 @@
     background-repeat: no-repeat;
     background-position: center;
 
-    height: 670px;
+    min-height: 80vh;
 }
 
 .meetings {
     position: relative;
     align-items: start;
     justify-items: center;
-    grid-auto-rows: 80px 1fr 95px;
+    padding-block-end: 2.5em;
 
     background-image: url('https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745739241/candle-book-cover_s2jbvl.jpg');
     z-index: 0;
