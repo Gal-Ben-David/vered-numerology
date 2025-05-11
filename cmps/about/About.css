@@ -23,11 +23,22 @@
 
         border-radius: 30px;
         background-color: var(--color-oil-green);
+        transition: .5s ease;
 
         & .plus-icon {
             width: 24px;
             filter: var(--filter-white);
         }
+
+        &:hover {
+            background-color: var(--color-dark-green-2);
+            transform: scale(1.02);
+        }
+    }
+
+    & .icon-wrapped:hover {
+        transition: .2s ease-in-out;
+        background-color: var(--color-gold-light);
     }
 }
 

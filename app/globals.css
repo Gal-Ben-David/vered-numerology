@@ -10,6 +10,7 @@
   --natural-background: #EBE5DE;
 
   --color-gold: #D7BB83;
+  --color-gold-light: #f8dda7;
   --color-haki: #9B7C4B;
   --color-brown: #712D2D;
   --color-green: #8ed6a6;
@@ -262,6 +263,8 @@ main.main-layout {
   color: var(--foreground);
   background-color: var(--color-dark-green);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: .5s ease;
+  cursor: pointer;
 
   & svg {
     margin-block-start: .4em;
@@ -271,6 +274,18 @@ main.main-layout {
     background-color: var(--color-light-green-1);
     color: var(--color-dark-green-2);
     margin-block-start: 1.7em;
+
+    &:hover {
+      background-color: var(--color-gold-light);
+      /* transform: scale(1.02); */
+    }
+  }
+
+  &.btn-schedule-workshop {
+    &:hover {
+      background-color: var(--color-gold);
+      /* transform: scale(1.02); */
+    }
   }
 
   &.btn-clear {

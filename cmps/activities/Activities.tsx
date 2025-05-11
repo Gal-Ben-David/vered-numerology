@@ -42,7 +42,7 @@ export function Activities() {
                 </ul>
             </div>
 
-            <a className="btn btn-schedule btn-schedule-workshop" href="https://wa.me/972523288279">
+            <a className="btn btn-schedule btn-schedule-workshop" href="https://wa.me/972523288279" target="_blank" rel="noopener noreferrer">
                 <span>
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#ededed"><path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" /></svg>
                 </span>

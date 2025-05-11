@@ -55,6 +55,11 @@
             height: 40px;
         }
     }
+
+    .icon-container:hover {
+        transition: .3s ease-in-out;
+        background-color: var(--color-gold-light);
+    }
 }
 
 /* @keyframes sideShake {
