@@ -142,6 +142,7 @@ p {
 
   .intro & {
     width: clamp(13em, 30vw, 22em);
+    margin: auto;
   }
 
   &.workshop-description {

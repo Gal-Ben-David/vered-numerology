@@ -35,6 +35,14 @@ export function Calculator() {
             setErrorMessage('*שנה צריכה לכלול 4 ספרות')
             return
         }
+        if (+date.month <= 0 || +date.month > 12) {
+            setErrorMessage('*חודש צריך להיות בין 1 ל-12 ')
+            return
+        }
+        if (+date.day <= 0 || +date.day > 31) {
+            setErrorMessage('*יום צריך להיות בין 1 ל-31 ')
+            return
+        }
         const dayCalc = sumDigits(+date.day)
         const monthCalc = sumDigits(+date.month)
         const yearCalc = sumDigits(+date.year)
