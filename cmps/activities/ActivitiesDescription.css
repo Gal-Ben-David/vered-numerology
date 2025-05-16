@@ -3,6 +3,13 @@
     gap: 2em;
     padding: 1em 0 0;
 
+    & .image-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        z-index: 0;
+    }
+
 
     & .image-wrapper {
         position: relative;
@@ -13,13 +20,15 @@
         border: 2px solid #fff;
 
         box-shadow: 10px 10px 0px var(--color-light-green-2);
+        z-index: 1;
+        overflow: visible;
     }
 
     & .intro-img {
         object-fit: cover;
     }
 
-    & .image-wrapper::after {
+    & .image-container::after {
         content: '';
         position: absolute;
         right: -18px;
@@ -27,12 +36,10 @@
 
         width: 100px;
         height: 100px;
-
         background-color: #d7bb8381;
-        z-index: -1;
     }
 
-    & .image-wrapper::before {
+    & .image-container::before {
         content: '';
         position: absolute;
         left: -10px;
@@ -41,7 +48,6 @@
         width: 150px;
         height: 150px;
         background-color: #d7bb8381;
-        z-index: -1;
     }
 }
 
