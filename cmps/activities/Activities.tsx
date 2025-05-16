@@ -2,21 +2,13 @@ import './Activities.css'
 import { workshops as workshopList } from '@/data/workshops';
 import { ActivitiesList } from './ActivitiesList';
 import { activitiesIcons } from '@/data/icons';
+import { ActivitiesDescription } from './ActivitiesDescription';
 
 export function Activities() {
     return (
         <section className="activities full main-layout">
-            <div className="activities-description rtl">
-                <p >
-                    <span className="bold">
-                        נומרולוגית מובילה בארץ
-                    </span>
-                    <br />
-                    מקדמת אנשים להתפתחות, צמיחה והעצמה אישית.
-                </p>
-                <p> בעלת קליניקה פרטית לפגישות אישיות - ליחידים ולזוגות.</p>
-                <p>מעבירה סדנאות חוויתיות לקבוצות - בכל שלב ובכל צומת בחיים.</p>
-            </div>
+
+            <ActivitiesDescription />
 
             <hr />
 

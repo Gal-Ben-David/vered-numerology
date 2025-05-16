@@ -1,0 +1,78 @@
+.activities-description {
+    display: grid;
+    gap: 2em;
+    padding: 1em 0 0;
+
+
+    & .image-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 300px;
+        aspect-ratio: 2 /3;
+        margin: auto;
+        border: 2px solid #fff;
+
+        box-shadow: 10px 10px 0px var(--color-light-green-2);
+    }
+
+    & .intro-img {
+        object-fit: cover;
+    }
+
+    & .image-wrapper::after {
+        content: '';
+        position: absolute;
+        right: -18px;
+        bottom: -18px;
+
+        width: 100px;
+        height: 100px;
+
+        background-color: #d7bb8381;
+        z-index: -1;
+    }
+
+    & .image-wrapper::before {
+        content: '';
+        position: absolute;
+        left: -10px;
+        top: -10px;
+
+        width: 150px;
+        height: 150px;
+        background-color: #d7bb8381;
+        z-index: -1;
+    }
+}
+
+
+.introduction {
+    display: grid;
+    position: relative;
+    z-index: 0;
+}
+
+& .introduction::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    background-image: url('/img/rose.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(0) saturate(100%) invert(14%) sepia(64%) saturate(1399%) hue-rotate(330deg) brightness(108%) contrast(84%);
+
+    opacity: .08;
+    z-index: -1;
+}
+
+
+@media (min-width: 768px) {
+    .activities-description {
+        gap: 3em;
+    }
+}

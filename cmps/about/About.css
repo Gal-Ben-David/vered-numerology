@@ -32,7 +32,6 @@
 
         &:hover {
             background-color: var(--color-dark-green-2);
-            transform: scale(1.02);
         }
     }
 

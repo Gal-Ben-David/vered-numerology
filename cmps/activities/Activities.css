@@ -10,31 +10,6 @@
     text-align: center;
     content-visibility: auto;
 
-    & .activities-description {
-        display: grid;
-
-        position: relative;
-        z-index: 0;
-    }
-
-    & .activities-description::before {
-        content: '';
-        position: absolute;
-        width: 200px;
-        height: 200px;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-
-        background-image: url('/img/rose.svg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        filter: brightness(0) saturate(100%) invert(14%) sepia(64%) saturate(1399%) hue-rotate(330deg) brightness(108%) contrast(84%);
-
-        opacity: .08;
-        z-index: -1;
-    }
-
     & .activities-icon-list {
         display: grid;
         grid-template-columns: 100px 100px;
