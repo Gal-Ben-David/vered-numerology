@@ -35,11 +35,11 @@ export function ContactDetails({ whatsappIcon }: { whatsappIcon: Icon }) {
 
             <p className="contact-details">
                 <span className="contact-icon-container"><EnvelopeIcon /></span>
-                <span>vered.benda@gmail.com</span>
+                <a href="mailto:vered.benda@gmail.com">vered.benda@gmail.com</a>
             </p>
             <p className="contact-details">
                 <span className="contact-icon-container"><TelephoneIcon /></span>
-                <span>052-3288279</span>
+                <a href="tel:0523288279">052-3288279</a>
             </p>
         </div>
     )
