@@ -11,9 +11,9 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1747826063/vered-ben-david-thumbnail_aexaot.png",
-        width: 1100,
-        height: 630,
+        url: "https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745423327/vered-img_genget.jpg",
+        width: 255,
+        height: 255,
         type: "image/webp",
       },
     ],
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "ורד בן דוד - נומרולוגיה, ייעוץ והכוונה",
     description: "נומרולוגית מובילה בארץ. מקדמת אנשים להתפתחות, צמיחה והעצמה אישית. בעלת קליניקה פרטית לפגישות אישיות ומעבירה סדנאות חוויתיות לקבוצות.",
-    images: ["https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1747826063/vered-ben-david-thumbnail_aexaot.png"],
+    images: ["https://res.cloudinary.com/dvykycdey/image/upload/v1745423327/vered-img_genget.jpg"],
   },
 };
 
