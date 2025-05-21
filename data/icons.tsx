@@ -88,3 +88,13 @@ export const PlusIcon = () => (
         className="plus-icon"
     />
 )
+
+export const CalculatorIcon = () => (
+    <Image
+        src="/icons/calculator-icon.svg"
+        alt="calculator"
+        width={24}
+        height={24}
+        className="calculator-icon"
+    />
+)

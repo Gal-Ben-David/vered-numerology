@@ -3,6 +3,7 @@ import './About.css'
 import { SocialLinks } from '../social-links/SocialLinks'
 import { useEffect, useState } from 'react'
 import { PlusIcon } from '@/data/icons'
+import { CalculatorIcon } from '@/data/icons'
 
 export function About() {
 
@@ -25,11 +26,19 @@ export function About() {
                     <h2 className="rtl">נומרולוגיה, ייעוץ והכוונה</h2>
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>
                 </div>
+
                 <SocialLinks />
-                <a className="save-to-contact bold rtl" href="/file/vered-ben-david.vcf" type="text/vcard">
-                    <p>שמרו אותי באנשי הקשר</p>
-                    <PlusIcon />
-                </a>
+
+                <div>
+                    <a className="save-to-contact bold rtl" href="/file/vered-ben-david.vcf" type="text/vcard">
+                        <p>שמרו אותי באנשי הקשר</p>
+                        <PlusIcon />
+                    </a>
+                    <a className="save-to-contact bold rtl" href="#calculator" type="text/vcard">
+                        <p>קחו אותי למחשבון נומרולוגי </p>
+                        {/* <CalculatorIcon /> */}
+                    </a>
+                </div>
             </div>
         </section>
     )

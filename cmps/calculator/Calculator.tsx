@@ -63,7 +63,7 @@ export function Calculator() {
     }
 
     return (
-        <section className="calculator full main-layout rtl">
+        <section className="calculator full main-layout rtl" id="calculator">
             <h2>מחשבון שביל גורל</h2>
 
             <p className="calculator-description">

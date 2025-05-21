@@ -7,6 +7,8 @@
         position: relative;
         display: flex;
         justify-content: center;
+        width: 300px;
+        justify-self: center;
         z-index: 0;
     }
 
@@ -31,8 +33,8 @@
     & .image-container::after {
         content: '';
         position: absolute;
-        right: -18px;
-        bottom: -18px;
+        right: -16px;
+        bottom: -16px;
 
         width: 100px;
         height: 100px;
@@ -42,8 +44,8 @@
     & .image-container::before {
         content: '';
         position: absolute;
-        left: -10px;
-        top: -10px;
+        left: -8px;
+        top: -8px;
 
         width: 150px;
         height: 150px;

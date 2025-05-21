@@ -21,7 +21,7 @@ export function CallToAction() {
                     links.map((link, i) =>
                         <li className="icon-container" key={i}>
                             <a
-                                href='https://www.facebook.com/share/1AUEkc1GNx/?mibextid=wwXIfr'
+                                href={link.href}
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 {link.icon}

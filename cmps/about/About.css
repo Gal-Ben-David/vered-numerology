@@ -25,7 +25,8 @@
         background-color: var(--color-oil-green);
         transition: .5s ease;
 
-        & .plus-icon {
+        & .plus-icon,
+        & .calculator-icon {
             width: 24px;
             filter: var(--filter-white);
         }
