@@ -30,6 +30,16 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
   return (
     <html lang="he">
       <head>
+        <link rel="preconnect" href="https://res.cloudinary.com" crossOrigin="anonymous" />
+        <link
+          rel="preload"
+          as="image"
+          href="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745910915/cover-img_small_z9c5am.jpg"
+          type="image/webp"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
           href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap&subset=hebrew"
           rel="stylesheet"

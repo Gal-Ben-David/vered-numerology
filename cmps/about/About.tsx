@@ -3,7 +3,6 @@ import './About.css'
 import { SocialLinks } from '../social-links/SocialLinks'
 import { useEffect, useState } from 'react'
 import { PlusIcon } from '@/data/icons'
-import { CalculatorIcon } from '@/data/icons'
 
 export function About() {
 

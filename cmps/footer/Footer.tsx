@@ -1,6 +1,4 @@
 import './Footer.css'
-import { EnvelopeIcon } from '@/data/icons'
-import { TelephoneIcon } from '@/data/icons'
 
 export function Footer() {
     return (
