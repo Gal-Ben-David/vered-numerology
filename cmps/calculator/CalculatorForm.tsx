@@ -29,6 +29,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                         onChange={handleChange}
                         value={date.day}
                         maxLength={2}
+                        autoComplete="off"
                         required />
                 </label>
 
@@ -43,6 +44,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                         onChange={handleChange}
                         value={date.month}
                         maxLength={2}
+                        autoComplete="off"
                         required />
                 </label>
 
@@ -57,6 +59,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
                         onChange={handleChange}
                         value={date.year}
                         maxLength={4}
+                        autoComplete="off"
                         required />
                 </label>
             </div>
@@ -65,7 +68,7 @@ export function CalculatorForm({ onSubmit, handleChange, date, pathNumber, clear
 
             <div className="form-buttons">
                 <button className="btn bold btn-form btn-calculator">חישוב</button>
-                <button className="btn bold btn-clear btn-calculator" onClick={clearForm}>איפוס</button>
+                <button className={`btn bold btn-clear btn-calculator ${(date.day || date.month || date.year) ? 'btn-active' : ''}`} onClick={clearForm}>איפוס</button>
             </div>
         </form>
     )

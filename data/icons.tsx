@@ -3,7 +3,7 @@ import Image from "next/image";
 const BirthdayIcon = () => (
     <Image
         src="/icons/birthday-icon.svg"
-        alt="whatsapp"
+        alt="קונפטי יומהולדת"
         width={60}
         height={60}
         className="activities-icon"
@@ -14,7 +14,7 @@ const BirthdayIcon = () => (
 const RingIcon = () => (
     <Image
         src="/icons/ring-icon.svg"
-        alt="ring"
+        alt="טבעת חתונה"
         width={60}
         height={60}
         className="activities-icon"
@@ -25,7 +25,7 @@ const RingIcon = () => (
 const WineGlassIcon = () => (
     <Image
         src="/icons/wine-glass-icon.svg"
-        alt="wine-glass"
+        alt="כוס יין"
         width={60}
         height={60}
         className="activities-icon"
@@ -51,7 +51,7 @@ export const activitiesIcons = [
 export const DateIcon = () => (
     <Image
         src="/icons/date-icon.svg"
-        alt="date"
+        alt="כדור בדולח"
         width={60}
         height={60}
         className="calculator-icon"
@@ -61,7 +61,7 @@ export const DateIcon = () => (
 export const EnvelopeIcon = () => (
     <Image
         src="/icons/envelope-icon.svg"
-        alt="email"
+        alt="אימייל"
         width={20}
         height={20}
         className="email-icon contact-icon"
@@ -71,7 +71,7 @@ export const EnvelopeIcon = () => (
 export const TelephoneIcon = () => (
     <Image
         src="/icons/telephone-icon-2.svg"
-        alt="phone"
+        alt="טלפון"
         width={20}
         height={20}
         className="telephone-icon contact-icon"
@@ -82,7 +82,7 @@ export const TelephoneIcon = () => (
 export const PlusIcon = () => (
     <Image
         src="/icons/plus-icon.svg"
-        alt="phone"
+        alt="סימן פלוס"
         width={24}
         height={24}
         className="plus-icon"
@@ -92,7 +92,7 @@ export const PlusIcon = () => (
 export const CalculatorIcon = () => (
     <Image
         src="/icons/calculator-icon.svg"
-        alt="calculator"
+        alt="מחשבון"
         width={24}
         height={24}
         className="calculator-icon"

@@ -23,7 +23,7 @@ export function ActivitiesList({ activities }: ActivitiesListProps) {
                         <Image
                             className="workshop-img"
                             src={item.src}
-                            alt="workshop"
+                            alt={`תמונת נושא לסדנה: ${item.title}`}
                             fill
                             sizes="(max-width: 768px) 260px, 300px"
                             loading="lazy"

@@ -17,6 +17,7 @@
   --color-peach: #F6A594;
   --clr-btn: #F6A594;
   --clr-btn-clear: #c3c3c3;
+  --clr-btn-clear-active: #a9a9a9;
 
   --color-oil-green: #696B4C;
   --color-dark-green: #565746;
@@ -25,7 +26,6 @@
   --color-light-green-2: #E1E2D2;
   --color-beige: #D2C9C2;
   --color-brown-1: #8E705D;
-
 
   --filter-white: brightness(0) saturate(100%) invert(100%) sepia(86%) saturate(261%) hue-rotate(211deg) brightness(113%) contrast(86%);
   --filter-oil-green: brightness(0) saturate(100%) invert(39%) sepia(35%) saturate(312%) hue-rotate(25deg) brightness(96%) contrast(90%);
@@ -302,6 +302,10 @@ main.main-layout {
   &.btn-form {
     background-color: var(--color-dark-green);
     color: var(--light-background);
+  }
+
+  &.btn-active {
+    background-color: var(--clr-btn-clear-active);
   }
 }
 

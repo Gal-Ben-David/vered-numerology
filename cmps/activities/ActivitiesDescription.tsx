@@ -11,8 +11,8 @@ export function ActivitiesDescription() {
                 <div className="image-wrapper">
                     <Image
                         className="intro-img"
-                        src="https://res.cloudinary.com/dvykycdey/image/upload/v1747409365/vered-office_l6lfln.jpg"
-                        alt="vered-office"
+                        src="https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1747409365/vered-office_l6lfln.jpg"
+                        alt="תמונה של ורד עם ספר נומרולוגיה"
                         fill
                         loading="lazy"
                     />
