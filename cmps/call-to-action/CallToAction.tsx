@@ -31,6 +31,7 @@ export function CallToAction() {
             </ul>
 
             <p className="all-rights-reserved">© כל הזכויות שמורות לורד בן דוד</p>
+            <a href="/accessibility" style={{ textDecoration: 'underline' }}>הצהרת נגישות</a>
         </section>
     )
 }

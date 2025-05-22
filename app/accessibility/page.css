@@ -1,0 +1,8 @@
+.accessibility {
+    display: grid;
+    color: var(--font);
+    text-align: right;
+
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

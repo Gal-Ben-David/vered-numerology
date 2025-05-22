@@ -70,6 +70,10 @@ h1 {
     font-size: 2rem;
     margin-block-end: .2em;
   }
+
+  .accessibility & {
+    font-size: 2rem;
+  }
 }
 
 h2 {
@@ -93,7 +97,11 @@ h2 {
     align-self: center;
     margin-block-start: 2em;
     font-size: clamp(1.5rem, 2.5vw, 2rem);
+  }
 
+  .accessibility & {
+    margin-block-start: 1em;
+    font-size: 1.5rem;
   }
 }
 
@@ -201,6 +209,14 @@ p {
 
   &.built-by {
     font-weight: 550;
+  }
+
+  .accessibility & {
+    justify-self: start;
+  }
+
+  &.update-date {
+    margin-block-start: 1em;
   }
 }
 
