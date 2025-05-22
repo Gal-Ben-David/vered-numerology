@@ -29,7 +29,7 @@ export function About() {
 
                 <SocialLinks />
 
-                <div>
+                <div className="actions">
                     <a className="save-to-contact bold rtl" href="/file/vered-ben-david.vcf" type="text/vcard">
                         <p>שמרו אותי באנשי הקשר</p>
                         <PlusIcon />

@@ -1,7 +1,7 @@
 .social-link-list {
     display: grid;
     grid-template-columns: repeat(2, 100px);
-    row-gap: 3em;
+    row-gap: 2em;
     column-gap: 1em;
     justify-self: center;
     justify-items: center;

@@ -9,7 +9,7 @@
         gap: 1.8em;
 
         margin-block-start: 10.5em;
-        padding-block-end: 3em;
+        padding-block-end: 2.5em;
     }
 
     & .save-to-contact {
@@ -39,6 +39,11 @@
     & .icon-wrapped:hover {
         transition: .2s ease-in-out;
         background-color: var(--color-gold-light);
+    }
+
+    & .actions {
+        display: grid;
+        gap: .5em;
     }
 }
 

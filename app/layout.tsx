@@ -11,18 +11,18 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745423327/vered-img_genget.jpg",
-        width: 255,
-        height: 255,
+        url: "https://res.cloudinary.com/dvykycdey/image/upload/w_120,h_120,c_thumb,g_face,f_webp/v1745423327/vered-img_genget.jpg",
+        width: 120,
+        height: 120,
         type: "image/webp",
       },
     ],
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "ורד בן דוד - נומרולוגיה, ייעוץ והכוונה",
     description: "נומרולוגית מובילה בארץ. מקדמת אנשים להתפתחות, צמיחה והעצמה אישית. בעלת קליניקה פרטית לפגישות אישיות ומעבירה סדנאות חוויתיות לקבוצות.",
-    images: ["https://res.cloudinary.com/dvykycdey/image/upload/v1745423327/vered-img_genget.jpg"],
+    images: ["https://res.cloudinary.com/dvykycdey/image/upload/w_120,h_120,c_thumb,g_face,f_webp/v1745423327/vered-img_genget.jpg"],
   },
 };
 
