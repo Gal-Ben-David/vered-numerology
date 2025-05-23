@@ -3,7 +3,11 @@ import { Footer } from "@/cmps/footer/Footer";
 import { Activities } from "@/cmps/activities/Activities";
 import { CallToAction } from "@/cmps/call-to-action/CallToAction";
 import { Meetings } from "@/cmps/meetings/Meetings";
-import { Calculator } from "@/cmps/calculator/Calculator";
+import dynamic from 'next/dynamic';
+
+const CalculatorCmp = dynamic(() => import('@/cmps/calculator/Calculator'), {
+  loading: () => <p>Loading...</p>, // Optional loading placeholder
+});
 
 export default function Home() {
   return (
@@ -31,7 +35,7 @@ export default function Home() {
       <About />
       <Activities />
       <Meetings />
-      <Calculator />
+      <CalculatorCmp />
       <CallToAction />
       <Footer />
     </>
