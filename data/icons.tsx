@@ -98,3 +98,13 @@ export const CalculatorIcon = () => (
         className="calculator-icon"
     />
 )
+
+export const AccessibilityIcon = () => (
+    <Image
+        src="/icons/accessibility-icon.svg"
+        alt="נגישות"
+        width={20}
+        height={20}
+        className="accessibility-icon"
+    />
+)

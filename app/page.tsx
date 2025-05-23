@@ -4,6 +4,7 @@ import { Activities } from "@/cmps/activities/Activities";
 import { CallToAction } from "@/cmps/call-to-action/CallToAction";
 import { Meetings } from "@/cmps/meetings/Meetings";
 import dynamic from 'next/dynamic';
+import { AccessibilityIcon } from "@/data/icons";
 
 const CalculatorCmp = dynamic(() => import('@/cmps/calculator/Calculator'), {
   loading: () => <p>Loading...</p>, // Optional loading placeholder
@@ -30,6 +31,10 @@ export default function Home() {
             fill="#9b9472"
           />
         </svg>
+      </div>
+
+      <div className="accessibility-wrapper">
+        <AccessibilityIcon />
       </div>
 
       <About />
