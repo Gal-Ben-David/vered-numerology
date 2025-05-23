@@ -8,7 +8,13 @@ import { Calculator } from "@/cmps/calculator/Calculator";
 export default function Home() {
   return (
     <>
-      <div className="cover-img full">
+      <div className="cover-img-wrapper full">
+        <img
+          className="cover-img"
+          src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745910915/cover-img_small_z9c5am.jpg"
+          alt="Cover"
+          fetchPriority="high"
+        />
         <svg
           viewBox="0 0 100 20"
           xmlns="http://www.w3.org/2000/svg"
