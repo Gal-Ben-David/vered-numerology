@@ -16,3 +16,9 @@ export type Icon = {
 export interface ActivitiesListProps {
     activities: Activity[]
 }
+
+export type Accessibility = {
+    title: string
+    icon: string
+    callback: () => void
+}

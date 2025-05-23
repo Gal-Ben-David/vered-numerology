@@ -1,0 +1,43 @@
+.accessibility-wrapper {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 20px;
+
+    border-radius: 50%;
+    padding: 8px;
+
+    background-color: var(--color-dark-green-2);
+    z-index: 100;
+    opacity: .5;
+
+    & .accessibility-icon {
+        filter: var(--filter-white);
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.accessibility-menu {
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
+
+    display: grid;
+    gap: .8em;
+
+    padding: 1em 2em;
+    border-radius: 1em;
+
+    text-align: right;
+    background-color: var(--light-background);
+    color: var(--color-dark-green-2);
+
+    z-index: 100;
+
+    & .accessibility-options {
+        display: grid;
+    }
+}
