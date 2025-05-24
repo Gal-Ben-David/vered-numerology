@@ -10,6 +10,7 @@
     background-color: var(--color-dark-green-2);
     z-index: 100;
     opacity: .5;
+    cursor: pointer;
 
     & .accessibility-icon {
         filter: var(--filter-white);
@@ -35,9 +36,15 @@
     background-color: var(--light-background);
     color: var(--color-dark-green-2);
 
+    transform: translateX(-200px);
+    transition: 1s ease;
     z-index: 100;
 
     & .accessibility-options {
         display: grid;
     }
+}
+
+.show-menu {
+    transform: translateX(0);
 }

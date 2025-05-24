@@ -1,9 +1,13 @@
 'use client'
 import './Accessibility.css'
-import { accessibilityOptions } from '@/data/accessibility-options'
 import { AccessibilityIcon } from '@/data/icons'
 import { useState } from 'react'
+import dynamic from 'next/dynamic'
 
+const AccessibilityMenuCmp = dynamic(() => import('./AccessibilityMenu'), {
+    ssr: false,
+    loading: () => <div>טוען תפריט נגישות...</div>,
+})
 
 export function Accessibility() {
     const [openAccessibilityMenu, setOpenAccessibilityMenu] = useState(false)
@@ -18,20 +22,7 @@ export function Accessibility() {
                 <AccessibilityIcon />
             </div>
 
-            {openAccessibilityMenu &&
-                <div className="accessibility-menu rtl">
-                    <h2>כלי נגישות</h2>
-                    <ul className="accessibility-options">
-                        {
-                            accessibilityOptions.map(option =>
-                                <>
-                                    <li>{option.title}</li>
-                                    <hr />
-                                </>
-                            )
-                        }
-                    </ul>
-                </div>}
+            <AccessibilityMenuCmp isOpen={openAccessibilityMenu} />
         </>
     )
 }
