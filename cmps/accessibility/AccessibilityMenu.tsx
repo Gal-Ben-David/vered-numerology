@@ -8,7 +8,7 @@ export default function AccessibilityMenu({ isOpen }: { isOpen: boolean }) {
             <ul className="accessibility-options">
                 {
                     accessibilityOptions.map((option, i) =>
-                        <li key={i}>
+                        <li key={i} onClick={option.callback}>
                             <p>{option.title}</p>
                             <hr />
                         </li>

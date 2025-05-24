@@ -1,42 +1,35 @@
 import { Accessibility } from "@/interfaces/interfaces"
-import {
-    increaseFont,
-    decreaseFont,
-    enableHighContrast,
-    enableMonochrome,
-    yellowBlackContrast,
-    setReadableFont
-} from '@/services/accessibility.service'
+import { accessibilityService } from '@/services/accessibility.service'
 
 export const accessibilityOptions: Accessibility[] = [
     {
         title: 'הגדלת גופן',
         icon: '',
-        callback: increaseFont
+        callback: accessibilityService.increaseFont
     },
     {
         title: 'הקטנת גופן',
         icon: '',
-        callback: decreaseFont
+        callback: accessibilityService.decreaseFont
     },
     {
         title: 'ניגודיות גבוהה',
         icon: '',
-        callback: enableHighContrast
+        callback: accessibilityService.enableHighContrast
     },
     {
         title: 'מונוכרום',
         icon: '',
-        callback: enableMonochrome
+        callback: accessibilityService.enableMonochrome
     },
     {
         title: 'שחור צהוב',
         icon: '',
-        callback: yellowBlackContrast
+        callback: accessibilityService.yellowBlackContrast
     },
     {
         title: 'גופן קריא',
         icon: '',
-        callback: setReadableFont
+        callback: accessibilityService.setReadableFont
     },
 ]
