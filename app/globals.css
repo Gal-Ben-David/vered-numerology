@@ -34,6 +34,7 @@
   --filter-dark-green: brightness(0) saturate(100%) invert(34%) sepia(16%) saturate(451%) hue-rotate(24deg) brightness(92%) contrast(91%);
   --filter-brown-1: brightness(0) saturate(100%) invert(53%) sepia(11%) saturate(1036%) hue-rotate(340deg) brightness(83%) contrast(89%);
   --filter-black: brightness(0) saturate(100%) invert(0%) sepia(22%) saturate(3207%) hue-rotate(5deg) brightness(89%) contrast(97%);
+  --filter-gray-1: brightness(0) saturate(100%) invert(20%) sepia(7%) saturate(6%) hue-rotate(107deg) brightness(92%) contrast(96%);
 }
 
 /* @media (prefers-color-scheme: dark) {

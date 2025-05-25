@@ -20,7 +20,7 @@ export function About() {
             </div>
 
             <div className="content about-content">
-                <div style={{ opacity: opacity ? '1' : '0', transition: '2s ease-in-out' }}>
+                <div style={{ opacity: opacity ? '1' : '0', transition: '2.5s ease-in-out' }}>
                     <h1 className="rtl">ורד בן דוד</h1>
                     <h2 className="rtl">נומרולוגיה, ייעוץ והכוונה</h2>
                     <h2 className="rtl">פגישות אישיות ・ סדנאות קבוצתיות</h2>

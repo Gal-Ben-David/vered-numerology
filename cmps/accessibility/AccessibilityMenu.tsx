@@ -22,7 +22,6 @@ export default function AccessibilityMenu({ isOpen, setIsOpen }: { isOpen: boole
                             </div>
                             <p className={`li-${i}`}>{option.title}</p>
                         </div>
-                        <hr />
                     </li>)}
                 <li onClick={() => setIsOpen(false)}>
                     <div className="option">
@@ -39,8 +38,7 @@ export default function AccessibilityMenu({ isOpen, setIsOpen }: { isOpen: boole
                         <p>סגירה</p>
                     </div>
                 </li>
-                <hr />
-                <a href="/accessibility" style={{ textDecoration: 'underline' }}>הצהרת נגישות</a>
+                <a href="/accessibility" style={{ textDecoration: 'underline', marginBlockStart: '.6em' }}>הצהרת נגישות</a>
             </ul>
         </div>
     )

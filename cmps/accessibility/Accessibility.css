@@ -33,7 +33,7 @@
 
     text-align: right;
     background-color: var(--light-background);
-    color: var(--color-dark-green-2);
+    color: var(--color-black-font);
 
     transform: translateX(-300px);
     transition: .8s ease;
@@ -42,7 +42,7 @@
     & .accessibility-options {
         display: grid;
 
-        & li:hover {
+        & li {
             cursor: pointer;
         }
 
@@ -50,12 +50,18 @@
             display: flex;
             gap: .5em;
             align-items: center;
+            height: 2.3em;
+            border-bottom: 1px solid var(--color-beige);
         }
     }
 
     & .accessibility-icon-wrapper {
         width: 15px;
         height: 15px;
+    }
+
+    & .accessibility-icon {
+        filter: var(--filter-gray-1);
     }
 }
 
