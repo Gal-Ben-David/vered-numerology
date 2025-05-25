@@ -3,11 +3,17 @@ let currentFontSize = 100
 const increaseFont = () => {
     currentFontSize += 10
     document.documentElement.style.fontSize = `${currentFontSize}%`
+
+    const el = document.querySelector('.li-0') as HTMLElement
+    el.style.fontWeight = (currentFontSize > 100) ? 'bold' : 'normal'
 }
 
 const decreaseFont = () => {
-    currentFontSize = Math.max(50, currentFontSize - 10)
+    currentFontSize = Math.max(100, currentFontSize - 10)
     document.documentElement.style.fontSize = `${currentFontSize}%`
+
+    const el = document.querySelector('.li-0') as HTMLElement
+    if (currentFontSize === 100) el.style.fontWeight = 'normal'
 }
 
 const enableHighContrast = () => {
@@ -37,11 +43,17 @@ const setReadableFont = () => {
     document.body.classList.toggle('readable-font')
 }
 
+const resetAccessibilitySettings = () => {
+    document.body.classList.remove('readable-font', 'contrast-theme', 'yellow-black', 'high-contrast', 'monochrome')
+    document.documentElement.style.fontSize = '100%'
+}
+
 export const accessibilityService = {
     increaseFont,
     decreaseFont,
     enableHighContrast,
     enableMonochrome,
     yellowBlackContrast,
-    setReadableFont
+    setReadableFont,
+    resetAccessibilitySettings
 }

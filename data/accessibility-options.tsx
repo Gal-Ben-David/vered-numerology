@@ -32,4 +32,9 @@ export const accessibilityOptions: Accessibility[] = [
         icon: '',
         callback: accessibilityService.setReadableFont
     },
+    {
+        title: 'איפוס',
+        icon: '',
+        callback: accessibilityService.resetAccessibilitySettings
+    },
 ]

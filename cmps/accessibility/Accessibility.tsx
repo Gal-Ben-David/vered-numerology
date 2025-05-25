@@ -22,7 +22,7 @@ export function Accessibility() {
                 <AccessibilityIcon />
             </div>
 
-            <AccessibilityMenuCmp isOpen={openAccessibilityMenu} />
+            <AccessibilityMenuCmp isOpen={openAccessibilityMenu} setIsOpen={setOpenAccessibilityMenu} />
         </>
     )
 }

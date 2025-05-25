@@ -35,7 +35,7 @@
     background-color: var(--light-background);
     color: var(--color-dark-green-2);
 
-    transform: translateX(-200px);
+    transform: translateX(-300px);
     transition: .8s ease;
     z-index: 100;
 

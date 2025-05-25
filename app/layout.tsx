@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Accessibility } from "@/cmps/accessibility/Accessibility";
 
 export const metadata: Metadata = {
   title: "ורד בן דוד - נומרולוגיה קבלית ייעוץ והכוונה",
@@ -47,6 +48,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
       </head>
       <body suppressHydrationWarning>
         <div className="app-container">
+          <Accessibility />
           <main className="content-container main-layout">{children}</main>
         </div>
       </body>
