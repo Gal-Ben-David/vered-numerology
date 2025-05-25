@@ -20,5 +20,6 @@ export interface ActivitiesListProps {
 export type Accessibility = {
     title: string
     icon: string
+    alt: string
     callback: () => void
 }

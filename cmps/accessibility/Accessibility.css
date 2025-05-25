@@ -45,6 +45,17 @@
         & li:hover {
             cursor: pointer;
         }
+
+        & .option {
+            display: flex;
+            gap: .5em;
+            align-items: center;
+        }
+    }
+
+    & .accessibility-icon-wrapper {
+        width: 15px;
+        height: 15px;
     }
 }
 

@@ -1,40 +1,47 @@
 import { Accessibility } from "@/interfaces/interfaces"
-import { accessibilityService } from '@/services/accessibility.service'
+import { accessibilityService } from "@/services/accessibility.service"
 
 export const accessibilityOptions: Accessibility[] = [
     {
         title: 'הגדלת גופן',
-        icon: '',
+        icon: '/icons/big-font-icon.svg',
+        alt: 'הגדלת גופן',
         callback: accessibilityService.increaseFont
     },
     {
         title: 'הקטנת גופן',
-        icon: '',
+        icon: '/icons/small-font-icon.svg',
+        alt: 'הקטנת גופן',
         callback: accessibilityService.decreaseFont
     },
     {
         title: 'ניגודיות גבוהה',
-        icon: '',
+        icon: '/icons/high-contrast-icon.svg',
+        alt: 'ניגודיות גבוהה',
         callback: accessibilityService.enableHighContrast
     },
     {
         title: 'מונוכרום',
-        icon: '',
+        icon: '/icons/monochrome-icon.svg',
+        alt: 'מונוכרום',
         callback: accessibilityService.enableMonochrome
     },
     {
         title: 'שחור צהוב',
-        icon: '',
+        icon: '/icons/yellow-black-contrast-icon.svg',
+        alt: 'ניגודיות שחור צהוב',
         callback: accessibilityService.yellowBlackContrast
     },
     {
         title: 'גופן קריא',
-        icon: '',
+        icon: '/icons/readable-font-icon.svg',
+        alt: 'גופן קריא',
         callback: accessibilityService.setReadableFont
     },
     {
         title: 'איפוס',
-        icon: '',
+        icon: '/icons/reset-icon.svg',
+        alt: 'איפוס הגדרות נגישות',
         callback: accessibilityService.resetAccessibilitySettings
     },
 ]
