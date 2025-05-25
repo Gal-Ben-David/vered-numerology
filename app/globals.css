@@ -77,7 +77,7 @@ h1 {
     margin-block-end: .2em;
   }
 
-  .accessibility & {
+  .accessibility-statement & {
     font-size: 2rem;
   }
 }
@@ -105,7 +105,7 @@ h2 {
     font-size: clamp(1.5rem, 2.5vw, 2rem);
   }
 
-  .accessibility & {
+  .accessibility-statement & {
     margin-block-start: 1em;
     font-size: 1.5rem;
   }
@@ -218,6 +218,10 @@ p {
   }
 
   .accessibility-menu & {
+    justify-self: start;
+  }
+
+  .accessibility-statement & {
     justify-self: start;
   }
 
