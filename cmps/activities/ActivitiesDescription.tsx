@@ -14,6 +14,7 @@ export function ActivitiesDescription() {
                         src="https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1747409365/vered-office_l6lfln.jpg"
                         alt="תמונה של ורד עם ספר נומרולוגיה"
                         fill
+                        sizes="296px"
                         loading="lazy"
                     />
                 </div>

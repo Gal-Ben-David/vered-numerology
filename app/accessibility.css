@@ -1,3 +1,72 @@
 body.readable-font {
     font-family: Arial, sans-serif !important;
 }
+
+body.contrast-theme {
+
+    & .about,
+    & .call-to-action,
+    & .meetings::after,
+    & .calculator,
+    & .activities,
+    & .accessibility-menu {
+        background-color: black;
+    }
+
+    & .cover-shape {
+        filter: var(--filter-black);
+    }
+
+    & .number-card {
+        color: var(--font);
+    }
+
+    & .accessibility-wrapper {
+        background-color: var(--color-gold);
+        opacity: 1;
+    }
+
+    & .activities-list li {
+        background-color: var(--color-dark-green);
+    }
+
+    & .call-to-action .contact-info .contact-icon {
+        filter: var(--filter-gold);
+    }
+
+    & .activities-icon-list .activities-icon {
+        filter: var(--filter-gold);
+    }
+
+    & .accessibility-menu {
+        box-shadow: 0 0 10px #fff;
+    }
+}
+
+body.high-contrast {
+
+    & .calculator,
+    & .activities,
+    & .accessibility-menu {
+        color: white;
+    }
+}
+
+body.yellow-black {
+
+    & .calculator,
+    & .activities,
+    & .about,
+    & .meetings,
+    & .call-to-action,
+    & .accessibility-menu,
+    footer,
+    .btn {
+        color: yellow;
+    }
+}
+
+body.monochrome {
+
+    filter: grayscale(100%);
+}

@@ -1,6 +1,6 @@
 .about {
     position: relative;
-    background: var(--background);
+    background-color: var(--background);
 
     & .about-content {
         display: grid;

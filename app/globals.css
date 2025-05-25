@@ -3,6 +3,7 @@
 :root {
   --background: #9B9472;
   --font: #696B4C;
+  --color-black-font: #333;
 
   --foreground: #ededed;
   --light-background: #fff;
@@ -32,6 +33,7 @@
   --filter-gold: brightness(0) saturate(100%) invert(81%) sepia(16%) saturate(804%) hue-rotate(2deg) brightness(94%) contrast(85%);
   --filter-dark-green: brightness(0) saturate(100%) invert(34%) sepia(16%) saturate(451%) hue-rotate(24deg) brightness(92%) contrast(91%);
   --filter-brown-1: brightness(0) saturate(100%) invert(53%) sepia(11%) saturate(1036%) hue-rotate(340deg) brightness(83%) contrast(89%);
+  --filter-black: brightness(0) saturate(100%) invert(0%) sepia(22%) saturate(3207%) hue-rotate(5deg) brightness(89%) contrast(97%);
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -214,7 +216,7 @@ p {
     font-weight: 550;
   }
 
-  .accessibility & {
+  .accessibility-menu & {
     justify-self: start;
   }
 

@@ -6,7 +6,6 @@ import { CalculatorForm } from './CalculatorForm'
 import { PathNumberCard } from '../path-number-card/PathNumberCard'
 
 export default function Calculator() {
-    console.log('hi')
     const [date, setDate] = useState<{ day: string; month: string; year: string }>({
         day: '',
         month: '',

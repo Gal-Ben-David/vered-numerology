@@ -36,11 +36,15 @@
     color: var(--color-dark-green-2);
 
     transform: translateX(-200px);
-    transition: 1s ease;
+    transition: .8s ease;
     z-index: 100;
 
     & .accessibility-options {
         display: grid;
+
+        & li:hover {
+            cursor: pointer;
+        }
     }
 }
 

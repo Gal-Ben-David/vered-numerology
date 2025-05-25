@@ -13,6 +13,7 @@ export default function AccessibilityMenu({ isOpen }: { isOpen: boolean }) {
                             <hr />
                         </li>
                     )}
+                <a href="/accessibility" style={{ textDecoration: 'underline' }}>הצהרת נגישות</a>
             </ul>
         </div>
     )
