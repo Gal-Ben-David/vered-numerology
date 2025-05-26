@@ -53,6 +53,10 @@
             height: 2.3em;
             border-bottom: 1px solid var(--color-beige);
         }
+
+        &>*:last-child {
+            margin-block-start: .6em;
+        }
     }
 
     & .accessibility-icon-wrapper {

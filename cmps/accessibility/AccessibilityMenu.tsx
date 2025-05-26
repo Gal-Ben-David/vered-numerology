@@ -13,7 +13,7 @@ export default function AccessibilityMenu({ isOpen, setIsOpen }: { isOpen: boole
                             <div className="accessibility-icon-wrapper">
                                 <Image
                                     src={option.icon}
-                                    alt={option.alt}
+                                    alt=""
                                     width={15}
                                     height={15}
                                     className="accessibility-icon"
@@ -23,6 +23,7 @@ export default function AccessibilityMenu({ isOpen, setIsOpen }: { isOpen: boole
                             <p className={`li-${i}`}>{option.title}</p>
                         </div>
                     </li>)}
+
                 <li onClick={() => setIsOpen(false)}>
                     <div className="option">
                         <div className="accessibility-icon-wrapper">
@@ -38,7 +39,11 @@ export default function AccessibilityMenu({ isOpen, setIsOpen }: { isOpen: boole
                         <p>סגירה</p>
                     </div>
                 </li>
-                <a href="/accessibility" style={{ textDecoration: 'underline', marginBlockStart: '.6em' }}>הצהרת נגישות</a>
+
+                <li>
+                    <a href="/accessibility" style={{ textDecoration: 'underline' }}>הצהרת נגישות</a>
+
+                </li>
             </ul>
         </div>
     )
