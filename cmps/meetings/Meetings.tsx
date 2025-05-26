@@ -5,7 +5,7 @@ export function Meetings() {
         <section className="meetings cover full main-layout rtl">
             <img
                 className="bg-image full"
-                src="https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745739241/candle-book-cover_s2jbvl.jpg"
+                src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto,w_1440/v1745739241/candle-book-cover_s2jbvl.jpg"
                 alt="ספר ונר לאווירה מיסטית"
                 loading="lazy"
                 aria-hidden="true"

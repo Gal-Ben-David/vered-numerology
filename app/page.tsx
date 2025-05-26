@@ -15,7 +15,7 @@ export default function Home() {
       <div className="cover-img-wrapper full">
         <img
           className="cover-img"
-          src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745910915/cover-img_small_z9c5am.jpg"
+          src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto,w_1440/v1745910915/cover-img_small_z9c5am.jpg"
           alt="Cover"
           fetchPriority="high"
         />
