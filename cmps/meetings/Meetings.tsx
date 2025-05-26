@@ -3,6 +3,14 @@ import './Meetings.css'
 export function Meetings() {
     return (
         <section className="meetings cover full main-layout rtl">
+            <img
+                className="bg-image full"
+                src="https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745739241/candle-book-cover_s2jbvl.jpg"
+                alt="ספר ונר לאווירה מיסטית"
+                loading="lazy"
+                aria-hidden="true"
+            />
+
             <h2 className="bold">פגישות אישיות</h2>
             <div className="meeting-description">
                 <p>אני מזמינה אתכם לתאם איתי פתיחת מפה נומרולוגית רחבה — בה נגלה יחד את מפת הדרכים האישית שלכם ונביא בהירות

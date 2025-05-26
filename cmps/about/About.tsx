@@ -3,6 +3,7 @@ import './About.css'
 import { SocialLinks } from '../social-links/SocialLinks'
 import { useEffect, useState } from 'react'
 import { PlusIcon } from '@/data/icons'
+import Image from 'next/image'
 
 export function About() {
 
@@ -16,7 +17,12 @@ export function About() {
     return (
         <section className="about full">
             <div className={`profile-img ${opacity ? 'visible' : ''}`}>
-                <img src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745423327/vered-img_genget.jpg" alt="תמונת פרופיל של ורד" />
+                <Image
+                    src="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745423327/vered-img_genget.jpg"
+                    alt="תמונת פרופיל של ורד"
+                    width={200}
+                    height={200}
+                />
             </div>
 
             <div className="content about-content">
