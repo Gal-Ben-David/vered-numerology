@@ -5,6 +5,12 @@ import { useState } from 'react'
 import { CalculatorForm } from './CalculatorForm'
 import { PathNumberCard } from '../path-number-card/PathNumberCard'
 
+declare global {
+    interface Window {
+        plausible?: (eventName: string, options?: { props: Record<string, any> }) => void;
+    }
+}
+
 export default function Calculator() {
     const [date, setDate] = useState<{ day: string; month: string; year: string }>({
         day: '',
@@ -48,6 +54,10 @@ export default function Calculator() {
         const yearCalc = sumDigits(+date.year)
 
         const pathNumber = sumDigits(dayCalc + monthCalc + yearCalc)
+
+        if (window.plausible) {
+            window.plausible('CalculatorUsed')
+        }
 
         setPathNumber(pathNumber)
     }

@@ -45,6 +45,8 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&display=swap&subset=hebrew"
           rel="stylesheet"
         />
+
+        <script defer data-domain="vered-ben-david.netlify.app" src="https://plausible.io/js/script.outbound-links.pageview-props.tagged-events.js"></script>
       </head>
       <body suppressHydrationWarning>
         <div className="app-container">
