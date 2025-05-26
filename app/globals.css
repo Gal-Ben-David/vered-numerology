@@ -1,7 +1,8 @@
 @import url('./accessibility.css');
 
 :root {
-  --background: #9B9472;
+  --background: #777355;
+  /* --background: #9B9472; */
   --font: #696B4C;
   --color-black-font: #333;
 
@@ -23,6 +24,7 @@
   --color-oil-green: #696B4C;
   --color-dark-green: #565746;
   --color-dark-green-2: #4E5130;
+  --color-dark-green-3: #45472c;
   --color-light-green-1: #C2C2AA;
   --color-light-green-2: #E1E2D2;
   --color-beige: #D2C9C2;
@@ -32,6 +34,7 @@
   --filter-oil-green: brightness(0) saturate(100%) invert(39%) sepia(35%) saturate(312%) hue-rotate(25deg) brightness(96%) contrast(90%);
   --filter-gold: brightness(0) saturate(100%) invert(81%) sepia(16%) saturate(804%) hue-rotate(2deg) brightness(94%) contrast(85%);
   --filter-dark-green: brightness(0) saturate(100%) invert(34%) sepia(16%) saturate(451%) hue-rotate(24deg) brightness(92%) contrast(91%);
+  --filter-dark-green-3: brightness(0) saturate(100%) invert(23%) sepia(5%) saturate(3763%) hue-rotate(25deg) brightness(91%) contrast(81%);
   --filter-brown-1: brightness(0) saturate(100%) invert(53%) sepia(11%) saturate(1036%) hue-rotate(340deg) brightness(83%) contrast(89%);
   --filter-black: brightness(0) saturate(100%) invert(0%) sepia(22%) saturate(3207%) hue-rotate(5deg) brightness(89%) contrast(97%);
   --filter-gray-1: brightness(0) saturate(100%) invert(20%) sepia(7%) saturate(6%) hue-rotate(107deg) brightness(92%) contrast(96%);
