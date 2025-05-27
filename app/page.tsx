@@ -28,7 +28,7 @@ export default function Home() {
         >
           <polygon
             points="0,2 50,8 100,2 100,20 0,20"
-            fill="#777355"
+            fill="#9B9472"
           />
         </svg>
       </div>

@@ -22,7 +22,7 @@
         margin-block-start: .5em;
 
         border-radius: 30px;
-        background-color: var(--color-dark-green-2);
+        background-color: var(--color-oil-green);
         transition: .5s ease;
 
         & .plus-icon,
@@ -32,7 +32,7 @@
         }
 
         &:hover {
-            background-color: var(--color-dark-green-3);
+            background-color: var(--color-dark-green);
         }
     }
 
@@ -43,7 +43,7 @@
 
     & .actions {
         display: grid;
-        gap: .5em;
+        gap: .3em;
     }
 }
 

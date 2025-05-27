@@ -34,7 +34,7 @@
 
             & .contact-icon {
                 margin-block-start: .2em;
-                filter: var(--filter-dark-green-3)
+                filter: var(--filter-dark-green)
             }
         }
     }
