@@ -32,6 +32,8 @@ input {
     font-family: inherit;
     border: none;
     border-radius: .5em;
+
+    color: var(--color-black-font);
     font-size: 1rem;
     background-color: var(--light-background);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.3);

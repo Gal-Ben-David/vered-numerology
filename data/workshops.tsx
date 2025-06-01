@@ -22,7 +22,7 @@ export const workshops = [
 `
     },
     {
-        title: 'חכמת נשים',
+        title: 'שורשים והשראה',
         src: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/v1745598978/women-bible_qxhlkx.jpg',
         blurDataURL: 'https://res.cloudinary.com/dvykycdey/image/upload/f_webp/e_blur:2000,q_1/v1745598978/women-bible_qxhlkx.jpg',
         description: `
