@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "ורד בן דוד - נומרולוגיה, ייעוץ והכוונה",
     description: "נומרולוגית מובילה בארץ. מקדמת אנשים להתפתחות, צמיחה והעצמה אישית. בעלת קליניקה פרטית לפגישות אישיות ומעבירה סדנאות חוויתיות לקבוצות.",
-    url: "https://vered-ben-david.netlify.app/",
+    url: "https://veredbendavid.com/",
     type: "website",
     images: [
       {
@@ -46,7 +46,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
           rel="stylesheet"
         />
 
-        <script defer data-domain="vered-ben-david.netlify.app" src="https://plausible.io/js/script.outbound-links.pageview-props.tagged-events.js"></script>
+        <script defer data-domain="veredbendavid.com" src="https://plausible.io/js/script.outbound-links.pageview-props.tagged-events.js"></script>
       </head>
       <body suppressHydrationWarning>
         <div className="app-container">
