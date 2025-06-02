@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description: "נומרולוגית מובילה בארץ. מקדמת אנשים להתפתחות, צמיחה והעצמה אישית. בעלת קליניקה פרטית לפגישות אישיות ומעבירה סדנאות חוויתיות לקבוצות.",
     images: ["https://res.cloudinary.com/dvykycdey/image/upload/w_150,h_160,c_thumb,f_webp/v1746963249/vered-profile-img_pyjqlo.jpg"],
   },
-};
+}
 
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
   return (
@@ -47,6 +47,22 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         />
 
         <script defer data-domain="veredbendavid.com" src="https://plausible.io/js/script.outbound-links.pageview-props.tagged-events.js"></script>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            "name": "ורד בן דוד",
+            "alternateName": "Vered Ben David",
+            "url": "https://veredbendavid.com/",
+            "image": "https://res.cloudinary.com/dvykycdey/image/upload/v1746963249/vered-profile-img_pyjqlo.jpg",
+            "jobTitle": "נומרולוגית ומנחת סדנאות",
+            "description": "ורד בן דוד - נומרולוגית מובילה בארץ. מעניקה ייעוץ נומרולוגי, הכוונה רוחנית והתפתחות אישית.",
+            "sameAs": [
+              "https://www.facebook.com/share/1AUEkc1GNx/?mibextid=wwXIfr",
+              "https://www.instagram.com/veredezr?igsh=a3h2eXphd2N2NHA3&utm_source=qr",
+            ]
+          })
+        }} />
       </head>
       <body suppressHydrationWarning>
         <div className="app-container">
