@@ -35,7 +35,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
         <link
           rel="preload"
           as="image"
-          href="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto/v1745910915/cover-img_small_z9c5am.jpg"
+          href="https://res.cloudinary.com/dvykycdey/image/upload/f_auto,q_auto,w_1440/v1745910915/cover-img_small_z9c5am.jpg"
           type="image/webp"
         />
 
