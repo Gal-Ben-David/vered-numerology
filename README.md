@@ -11,6 +11,8 @@ The digital card showcases Vered’s professional profile, contact information, 
 
 One of the main features of this digital card is an **interactive calculator** designed to deliver real value to the audience. This tool helps users quickly estimate specific values relevant to Vered's field of expertise, making the digital card not just informative but also functional.
 
+![vered-ben-david-calculator](https://res.cloudinary.com/dvykycdey/image/upload/v1749547527/veredbendavid-calculator_gsidqh.png)
+
 ## Start the Application
 
 First, run the development server:
