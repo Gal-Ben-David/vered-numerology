@@ -1,6 +1,6 @@
 # Vered Ben David – Digital Card
 
-I build the official digital card of **Vered Ben David** – [www.veredbendavid.com](https://www.veredbendavid.com).
+I built the official digital card of **Vered Ben David** – [www.veredbendavid.com](https://www.veredbendavid.com).
 Techstack: Next.js, TypeScript, CSS
 
 The digital card showcases Vered’s professional profile, contact information, and online presence in a modern and user-friendly interface.
