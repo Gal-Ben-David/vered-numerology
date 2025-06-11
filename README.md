@@ -2,7 +2,7 @@
 
 The official digital card of **Vered Ben David** – [www.veredbendavid.com](https://www.veredbendavid.com).
 
-Built with **Next.js**, **TypeScript**, and **CSS**,
+Built with **Next.js**, **TypeScript**, and **CSS**.
 
 The digital card showcases Vered’s professional profile, contact information, and online presence in a modern and user-friendly interface.
 
@@ -16,7 +16,7 @@ One of the main features of this digital card is an **interactive calculator** d
 
 ### ♿ Accessibility
 
-Accessibility has been considered throughout the development to ensure the content is usable and navigable for users
+Accessibility has been considered throughout the development to ensure the content is usable and navigable for users.
 
 ![vered-ben-david-accessibility](https://res.cloudinary.com/dvykycdey/image/upload/v1749634486/veredbendavid-accessibility_qdn0a5.png)
 
