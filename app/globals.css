@@ -148,6 +148,16 @@ img {
   width: 100%;
 }
 
+pre {
+  font-family: inherit;
+  font-size: 1.3rem;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.6;
+  justify-self: center;
+}
+
 p {
   margin: 0;
   justify-self: center;
@@ -163,7 +173,7 @@ p {
   }
 
   .intro & {
-    width: clamp(13em, 30vw, 22em);
+    width: clamp(13em, 20vw, 22em);
     margin: auto;
   }
 

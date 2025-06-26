@@ -3,17 +3,21 @@ import { workshops as workshopList } from '@/data/workshops';
 import { ActivitiesList } from './ActivitiesList';
 import { activitiesIcons } from '@/data/icons';
 import { ActivitiesDescription } from './ActivitiesDescription';
+import { getContentForActivities } from '../../content/queries'
 
-export function Activities() {
+export async function Activities() {
+    const data = await getContentForActivities()
+    const content = data.activitiesCollection.items[0]
+
     return (
         <section className="activities full main-layout">
 
-            <ActivitiesDescription />
+            <ActivitiesDescription description={content.description} />
 
             <hr />
 
             <div className="rtl">
-                <h2>רשימת סדנאות</h2>
+                <h2>{content.title}</h2>
                 <ActivitiesList activities={workshopList} />
             </div>
 

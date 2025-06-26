@@ -2,7 +2,7 @@ import './ActivitiesDescription.css'
 import Image from "next/image";
 
 
-export function ActivitiesDescription() {
+export function ActivitiesDescription({ description }: { description: string }) {
 
 
     return (
@@ -25,13 +25,10 @@ export function ActivitiesDescription() {
                     <p className="bold">
                         נומרולוגית מובילה בארץ
                     </p>
-                    <p>
-                        מקדמת אנשים להתפתחות, צמיחה והעצמה אישית.
-                        <br />
-                        בעלת קליניקה פרטית לפגישות אישיות - ליחידים ולזוגות.
-                        <br />
-                        מעבירה סדנאות חוויתיות לקבוצות - בכל שלב ובכל צומת בחיים.
-                    </p>
+
+                    <pre>
+                        {description}
+                    </pre>
                 </div>
             </div>
         </section>
