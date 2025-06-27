@@ -1,5 +1,9 @@
 import './page.css'
 
+export const metadata = {
+    title: 'הצהרת נגישות - ורד בן דוד נומרולוגיה קבלית ייעוץ והכוונה',
+    description: 'הצהרת נגישות לאתר של ורד בן דוד',
+}
 
 export default function AccessibilityPage() {
 
